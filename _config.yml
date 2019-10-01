@@ -8,7 +8,7 @@ header_pages:
 
 footer: 'follow me on <a href="https://twitter.com/TheBlindHacker">twitter</a>'
 
-style: light #light # dark (default) or light
+style: grey #light # dark (default) or light
 
 plugins:
   - jekyll-seo-tag
