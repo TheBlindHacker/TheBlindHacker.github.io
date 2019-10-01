@@ -2,11 +2,11 @@
 
 #google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+  - index.md
+  - about.md
 
-#footer: 'follow me on <a href="https://twitter.com/TheBlindHacker">twitter</a>'
+footer: 'follow me on <a href="https://twitter.com/TheBlindHacker">twitter</a>'
 
 #style: light # dark (default) or light
 
