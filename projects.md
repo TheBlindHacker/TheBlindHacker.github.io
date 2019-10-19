@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: page
+layout: home
 permalink: projects.md
 ---
 
