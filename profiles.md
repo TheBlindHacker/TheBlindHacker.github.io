@@ -1,7 +1,7 @@
 ---
-title: Projects
+title: Profiles
 layout: home
-permalink: projects
+permalink: profiles
 ---
 
 # The Blind Hacker Profiles
