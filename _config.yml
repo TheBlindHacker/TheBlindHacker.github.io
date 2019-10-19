@@ -6,10 +6,11 @@ header_pages:
   - index.md
   - about.md
   - projects.md
+  - profiles.md
 
 footer: 'follow me on <a href="https://twitter.com/TheBlindHacker">twitter</a>'
 
-style: grey #light # dark (default) or light
+style: dark #light # dark (default) or light
 
 plugins:
   - jekyll-seo-tag
