@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: home
-permalink: projects.md
+permalink: projects
 ---
 
 # The Blind Hacker
