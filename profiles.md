@@ -6,6 +6,11 @@ permalink: profiles
 
 # The Blind Hacker Profiles
 
+[Twitter](https://twitter.com/TheBlindHacker)
+[Twitch.TV](https://www.twitch.tv/theblindhacker)
+[DeadPixelSec Discord](http://discord.deadpixelsec.com)
+[Patreon](https://www.patreon.com/theblindhacker)
+
 Sites, Talks, Locations, Blogs, I have been featured 
 
 |Topic  | Blog  | Name  |  Page  | Link   |
