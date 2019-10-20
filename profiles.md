@@ -3,16 +3,19 @@ title: Profiles
 layout: home
 permalink: profiles
 ---
-<br />
+/
 # The Blind Hacker Profiles
-<br />
+/
+
 [Twitter](https://twitter.com/TheBlindHacker)<br />
 [Twitch.TV](https://www.twitch.tv/theblindhacker)<br />
 [DeadPixelSec Discord](http://discord.deadpixelsec.com)<br />
 [Patreon](https://www.patreon.com/theblindhacker)<br />
-<br />
+/
+
 Sites, Talks, Locations, Blogs, I have been featured 
-<br />
+/
+
 |Topic  | Blog  | Name  |  Page  | Link   |
 |----|---|---|---|---|
 | Interview  | [Bunee Flacs](https://buneeflacs.com/) | YouTube  | Interview With TheBlindHacker   |  [link](https://www.youtube.com/watch?v=KOeWU62Ts4Y)  |
