@@ -14,6 +14,7 @@ permalink: profiles
     
 
 ## Sites, Talks, Locations, Blogs, I have been featured    
+<br />
     
         
 |Topic  | Blog  | Name  |  Page  | Link   |
