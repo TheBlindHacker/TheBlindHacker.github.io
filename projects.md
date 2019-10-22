@@ -2,17 +2,18 @@
 title: Projects
 layout: home
 permalink: projects
+published: true
 ---
 
 # The Blind Hacker
 
 # Projects: 
 
-Community Bulding
+Community Building
 Resume reviews
-Mock Intevriews
+Mock Interviews
 Twitch Streams 
-Perosnal Letter of reocmdnaion 
+Personal Letter of Recommendation
 
-
+Conference Sponsorships 
 
