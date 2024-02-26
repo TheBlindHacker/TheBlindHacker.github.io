@@ -1,7 +1,7 @@
 ---
 title: Hacking While Blind
 layout: home
-permalink: /HackingWhuleBlind
+permalink: hackingWhuleblind
 ---
 
 # Hacking Whule Blind: Empowering Blind Ethical Hackers: Accessible CLI Tools for Windows
