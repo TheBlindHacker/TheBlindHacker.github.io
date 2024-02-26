@@ -24,5 +24,5 @@ permalink: profiles
 | Interview | [@Joe Gray](https://twitter.com/C_3PJoe) | Blog | DerbyCon Interview Series: The Blind Hacker, Joe B. | [link](https://medium.com/@_C_3PJoe/derbycon-interview-series-the-blind-hacker-joe-b-453b7518fb7d) |
 | Texas Cyber Summit| [Jupiter Extra](https://extras.show) | Jupiter Broadcasting | Jupiter Extras Texas Cyber Summit | [link](https://extras.show/16) |
 | BsdiesDE | Conference Talk | Video | Soft skills for hackers AKA Hacking your way into Hack into the CyberSec industry |  [link](https://www.youtube.com/watch?v=6UPT8OIHM2E)  |
-| Webinar | OnDefend Webinat | Video | BlindSPOT Attack Simulation and Defense Optimization Linux Edition |  [link](https://www.youtube.com/watch?v=_YbFP5awVNI)  |
+| Webinar | OnDefend Webinar | Video | BlindSPOT Attack Simulation and Defense Optimization Linux Edition |  [link](https://www.youtube.com/watch?v=_YbFP5awVNI)  |
 | GRIMMCon | Conference Talk | Video | GRIMMCon 0x2 New Speakers Joe Brinkley TheBlindHacker CyberPhunk2020 How to kick off your Cyber |  [link](https://www.youtube.com/watch?v=iTQz5PT3d4o)  | 
