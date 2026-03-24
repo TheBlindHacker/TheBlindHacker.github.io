@@ -44,21 +44,21 @@ Find me on these platforms:
     <span class="media-tag">Conference Talk</span>
     <h3>Stable 21: Hacking While Blind</h3>
     <p>DerbyCon 2019 / Adrian Crenshaw. A deep dive into hacking with visual impairments.</p>
-    <a href="https://www.youtube.com/watch?v=DfL6n4xjH4w" class="media-link">Watch Video</a>
+    <a href="https://www.youtube.com/watch?v=DfL6n4xjH4w" class="media-link" aria-label="Watch video: Stable 21 Hacking While Blind">Watch Video</a>
   </div>
 
   <div class="media-card">
     <span class="media-tag">Conference Talk</span>
     <h3>CyberPhunk2020: Kick off your Cyber Journey</h3>
     <p>GRIMMCon. Tips and advice for starting a career in cybersecurity.</p>
-    <a href="https://www.youtube.com/watch?v=RyGKJ12iHya" class="media-link">Watch Video</a>
+    <a href="https://www.youtube.com/watch?v=RyGKJ12iHya" class="media-link" aria-label="Watch video: CyberPhunk2020 Kick off your Cyber Journey">Watch Video</a>
   </div>
 
   <div class="media-card">
     <span class="media-tag">Conference Talk</span>
     <h3>Soft Skills for Hackers</h3>
     <p>BSidesDE. Hacking your way into the CyberSec industry.</p>
-    <a href="https://www.youtube.com/watch?v=6UPT8OIHM2E" class="media-link">Watch Video</a>
+    <a href="https://www.youtube.com/watch?v=6UPT8OIHM2E" class="media-link" aria-label="Watch video: Soft Skills for Hackers">Watch Video</a>
   </div>
 
   <div class="media-card">
@@ -92,21 +92,21 @@ Find me on these platforms:
     <span class="media-tag">Podcast</span>
     <h3>The Hacker Factory</h3>
     <p>Phillip Wylie Show: Overcoming Obstacles to Become a Pentester.</p>
-    <a href="https://www.youtube.com/watch?v=cMoXmcz8CVb" class="media-link">Watch Video</a>
+    <a href="https://www.youtube.com/watch?v=cMoXmcz8CVb" class="media-link" aria-label="Watch video: The Hacker Factory">Watch Video</a>
   </div>
 
   <div class="media-card">
     <span class="media-tag">Podcast</span>
     <h3>The Phillip Wylie Show</h3>
     <p>Joe Brinkley aka The Blind Hacker: Origin Story & Advice.</p>
-    <a href="https://www.youtube.com/watch?v=GmjRlfs7n5T" class="media-link">Watch Video</a>
+    <a href="https://www.youtube.com/watch?v=GmjRlfs7n5T" class="media-link" aria-label="Watch video: The Phillip Wylie Show">Watch Video</a>
   </div>
 
   <div class="media-card">
     <span class="media-tag">Podcast</span>
     <h3>Simply Offensive</h3>
     <p>Episode featuring Joe Brinkley discussing offensive security.</p>
-    <a href="https://www.youtube.com/watch?v=GmjRlfs7n5T" class="media-link">Watch Video</a>
+    <a href="https://www.youtube.com/watch?v=GmjRlfs7n5T" class="media-link" aria-label="Watch video: Simply Offensive">Watch Video</a>
   </div>
   
   <div class="media-card">
@@ -140,14 +140,14 @@ Find me on these platforms:
     <span class="media-tag">Interview</span>
     <h3>Interview with The Blind Hacker</h3>
     <p>Cyber Bunee. Discussing the journey and challenges of a blind hacker.</p>
-    <a href="https://www.youtube.com/watch?v=IUTyyQD1-0g" class="media-link">Watch Video</a>
+    <a href="https://www.youtube.com/watch?v=IUTyyQD1-0g" class="media-link" aria-label="Watch video: Interview with The Blind Hacker">Watch Video</a>
   </div>
 
   <div class="media-card">
     <span class="media-tag">Article</span>
     <h3>DerbyCon Interview Series</h3>
     <p>Interview by Joe Gray. "The Blind Hacker, Joe B."</p>
-    <a href="https://medium.com/@_C_3PJoe/derbycon-interview-series-the-blind-hacker-joe-b-453b7518fb7d" class="media-link">Read Article</a>
+    <a href="https://medium.com/@_C_3PJoe/derbycon-interview-series-the-blind-hacker-joe-b-453b7518fb7d" class="media-link" aria-label="Read article: DerbyCon Interview Series">Read Article</a>
   </div>
 
 </div>

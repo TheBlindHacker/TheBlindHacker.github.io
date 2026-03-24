@@ -665,3 +665,19 @@ pre {
   text-decoration: underline;
   color: $link-color;
 }
+
+/**
+ * Utility Classes
+ * .sr-only: Hides content visually but keeps it available to screen readers (Accessibility).
+ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
