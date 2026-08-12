@@ -108,17 +108,38 @@ Find me on these platforms and labs:
 <div class="media-grid">
 
   <div class="media-card">
-    <span class="media-tag">CIO.com Feature</span>
-    <h3>CIO.com Security Commentary</h3>
-    <p>Expert insights on offensive security trends, AI agent risks, and penetration testing evolution.</p>
-    <a href="https://www.cio.com" class="media-link" target="_blank" rel="noopener">Read on CIO.com</a>
+    <span class="media-tag">CSO Online / CIO.com</span>
+    <h3>Security Leaders’ Rogue AI Confidence Could Actually Be Disastrous</h3>
+    <p>“Tracing agent impact fast is brutal. These systems do not run on fixed code paths... Traditional logs completely miss the full execution chain.”</p>
+    <a href="https://www.csoonline.com/article/4198038/security-leaders-confident-but-cooked-when-it-comes-to-rogue-ai-agents.html" class="media-link" target="_blank" rel="noopener">Read Article on CSO</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Help Net Security</span>
+    <h3>Companies Keep Bolting AI Onto Products &amp; Security Bill Is Due</h3>
+    <p>“Shadow AI operates at the application layer, completely bypassing traditional infrastructure inventory tools.”</p>
+    <a href="https://www.helpnetsecurity.com/2026/06/29/companies-keep-bolting-ai-onto-their-products-and-the-security-bill-is-coming-due/" class="media-link" target="_blank" rel="noopener">Read Feature on Help Net Security</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Cybernews</span>
+    <h3>Discovery Is Cheap, Validation Is Expensive</h3>
+    <p>“Discovery has become cheap, but validation remains incredibly expensive. Attempting to fix every flaw is counterproductive—focus on real exploit paths.”</p>
+    <a href="https://cybernews.com/editorial-perspectives/discovery-cheap-validation-expensive-software-flaws/" class="media-link" target="_blank" rel="noopener">Read Feature on Cybernews</a>
   </div>
 
   <div class="media-card">
     <span class="media-tag">CSO Online</span>
-    <h3>CSO Online Security Analysis</h3>
-    <p>Featured quotes and analysis on adversary emulation and cybersecurity operations.</p>
-    <a href="https://www.csoonline.com" class="media-link" target="_blank" rel="noopener">Read on CSO Online</a>
+    <h3>Bank Regulator Sounds Warning Over Cybersecurity Threat Posed by AI</h3>
+    <p>“The barrier to entry for state-level cyber capabilities has now been lowered to the cost of an API key.”</p>
+    <a href="https://www.csoonline.com/article/4185012/bank-regulator-sounds-warning-over-cybersecurity-threat-posed-by-ai-models.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online</span>
+    <h3>Lateral Movement Risk Rises as Enterprises Emphasize Convenience</h3>
+    <p>“Organizations must move beyond pure detection and prioritize deterministic containment through micro-segmentation and strict least privilege.”</p>
+    <a href="https://www.csoonline.com/article/4195230/lateral-movement-risk-rises-as-enterprises-emphasize-convenience-over-containment.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
   </div>
 
   <div class="media-card">
