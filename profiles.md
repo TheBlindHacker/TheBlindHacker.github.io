@@ -108,6 +108,20 @@ Find me on these platforms and labs:
 <div class="media-grid">
 
   <div class="media-card">
+    <span class="media-tag">The Register</span>
+    <h3>CISO Thought He Had a 'r3@lg00dp@$$w0rd' but Forgot to Patch</h3>
+    <p>“I shredded them. They were not in a very good security posture... They spent probably a half a million dollars to get patching and get through these things because they were trying to go through a merger and acquisition.”</p>
+    <a href="https://www.theregister.com/security/2026/10/01/ciso-thought-he-had-a-r3lg00dpw0rd-but-forgot-to-patch/5300314" class="media-link" target="_blank" rel="noopener">Read Feature on The Register</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online</span>
+    <h3>Stolen AI Credentials Feed Growing LLM Proxy Economy</h3>
+    <p>“Inference endpoints are live, production attack surfaces... If providers want to protect their models from extraction, they need to defend them at the application layer with real behavioral telemetry, sybil defenses, and output controls...”</p>
+    <a href="https://www.csoonline.com/article/4227199/stolen-ai-credentials-feed-growing-llm-proxy-economy.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
+  </div>
+
+  <div class="media-card">
     <span class="media-tag">CSO Online / CIO.com</span>
     <h3>Security Leaders’ Rogue AI Confidence Could Actually Be Disastrous</h3>
     <p>“Tracing agent impact fast is brutal. These systems do not run on fixed code paths... Traditional logs completely miss the full execution chain.”</p>
