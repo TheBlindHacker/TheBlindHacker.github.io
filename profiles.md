@@ -46,6 +46,13 @@ Find me on these platforms and labs:
 <div class="media-grid">
 
   <div class="media-card">
+    <span class="media-tag">Keynote Speaker</span>
+    <h3>Secure Carolinas 2026: Automated Attack Surfaces &amp; Agentic AI</h3>
+    <p>AegisX Conference (August 2026). Keynote presentation on integrating high-density edge AI hardware with agentic workflows for Continuous Penetration Testing (CPT).</p>
+    <a href="https://aegisx.events/" class="media-link" target="_blank" rel="noopener">View AegisX Conference</a>
+  </div>
+
+  <div class="media-card">
     <span class="media-tag">ISC2 Webcast</span>
     <h3>ISC2 Spotlight: Artificial Intelligence</h3>
     <p>Reading Adversary Patterns Behind Security Data. Translating threat signals into program adjustments.</p>
@@ -122,6 +129,13 @@ Find me on these platforms and labs:
   </div>
 
   <div class="media-card">
+    <span class="media-tag">The Register</span>
+    <h3>Government Contractor Exposed Path to 50M Immigration Records</h3>
+    <p>“It creates a glaring issue: going from a low-level datacenter to a top-secret classified environment. Opening that firewall rule allowed anyone on the low-level VPN access into production.”</p>
+    <a href="https://www.theregister.com/security/2026/09/24/government-contractor-exposed-path-to-immigration-records/5298689" class="media-link" target="_blank" rel="noopener">Read Feature on The Register</a>
+  </div>
+
+  <div class="media-card">
     <span class="media-tag">CSO Online / CIO.com</span>
     <h3>Security Leaders’ Rogue AI Confidence Could Actually Be Disastrous</h3>
     <p>“Tracing agent impact fast is brutal. These systems do not run on fixed code paths... Traditional logs completely miss the full execution chain.”</p>
@@ -133,6 +147,20 @@ Find me on these platforms and labs:
     <h3>Companies Keep Bolting AI Onto Products &amp; Security Bill Is Due</h3>
     <p>“Shadow AI operates at the application layer, completely bypassing traditional infrastructure inventory tools.”</p>
     <a href="https://www.helpnetsecurity.com/2026/06/29/companies-keep-bolting-ai-onto-their-products-and-the-security-bill-is-coming-due/" class="media-link" target="_blank" rel="noopener">Read Feature on Help Net Security</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">SC Media</span>
+    <h3>New Linux Privilege Escalation Flaw 'Fragnesia' Disclosed</h3>
+    <p>“We're seeing a recurring pattern where attackers leverage reliable arbitrary kernel write primitives to bypass traditional hardening. When a PoC can consistently overwrite /etc/passwd or hijack su logic, it's a turnkey solution for full system compromise.”</p>
+    <a href="https://www.scworld.com/news/new-linux-privilege-escalation-flaw-fragnesia-disclosed-poc-available" class="media-link" target="_blank" rel="noopener">Read Feature on SC Media</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Cobalt Research</span>
+    <h3>Navigating 2026’s Nation-State and Supply Chain Threats</h3>
+    <p>“Inference endpoints and supply chain pipelines are expanding faster than defensive telemetry. Organizations must transition from periodic check-box testing to continuous threat exposure management.”</p>
+    <a href="https://www.cobalt.io/blog/new-cobalt-research-navigating-2026s-nation-state-and-supply-chain-threats" class="media-link" target="_blank" rel="noopener">Read Cobalt Research Report</a>
   </div>
 
   <div class="media-card">
@@ -154,6 +182,13 @@ Find me on these platforms and labs:
     <h3>Lateral Movement Risk Rises as Enterprises Emphasize Convenience</h3>
     <p>“Organizations must move beyond pure detection and prioritize deterministic containment through micro-segmentation and strict least privilege.”</p>
     <a href="https://www.csoonline.com/article/4195230/lateral-movement-risk-rises-as-enterprises-emphasize-convenience-over-containment.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Business Wire / Press Release</span>
+    <h3>Cobalt Names Joseph Brinkley Head of Offensive Security Research and Community</h3>
+    <p>“Cobalt appoints Joseph Brinkley ('The Blind Hacker') to lead its global offensive security research agenda, scale adversary emulation methodologies, and mentor the Cobalt Core.”</p>
+    <a href="https://www.businesswire.com/news/home/20251208806173/en/Cobalt-Names-Joseph-Brinkley-Head-of-Offensive-Security-Research-and-Community" class="media-link" target="_blank" rel="noopener">Read Press Release on Business Wire</a>
   </div>
 
   <div class="media-card">
