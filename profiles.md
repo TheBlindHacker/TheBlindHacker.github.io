@@ -123,6 +123,20 @@ Find me on these platforms and labs:
 
   <div class="media-card">
     <span class="media-tag">CSO Online</span>
+    <h3>EU Cyber Resilience Act 'Completely Kills' Manual Vulnerability Triage</h3>
+    <p>“The 24-hour reporting clock completely kills manual triage. Taking three days to figure out if you're exposed to a zero-day is a luxury nobody has anymore... This takes vulnerability reporting right out of the legal department and drops it directly into live security ops.”</p>
+    <a href="https://www.csoonline.com/article/4229824/eu-cyber-resilience-act-completely-kills-manual-vulnerability-triage.html" class="media-link" target="_blank" rel="noopener">Read Feature on CSO Online</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">LavX News</span>
+    <h3>Law Firm CISO's 'r3@lg00dp@$w0rd' Exposed After BlueKeep Patch Failure</h3>
+    <p>“Penetration tester Joe Brinkley exploited BlueKeep during an M&A assessment to access systems across 2,500 workstations, highlighting how unpatched legacy infrastructure completely voids defensive investments.”</p>
+    <a href="https://news.lavx.hu/article/law-firm-ciso-s-r3-lg00dp-w0rd-exposed-after-bluekeep-patch-failure" class="media-link" target="_blank" rel="noopener">Read Feature on LavX News</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online</span>
     <h3>Stolen AI Credentials Feed Growing LLM Proxy Economy</h3>
     <p>“Inference endpoints are live, production attack surfaces... If providers want to protect their models from extraction, they need to defend them at the application layer with real behavioral telemetry, sybil defenses, and output controls...”</p>
     <a href="https://www.csoonline.com/article/4227199/stolen-ai-credentials-feed-growing-llm-proxy-economy.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
