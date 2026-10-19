@@ -1,0 +1,30 @@
+# The Blind Hacker — Joe Brinkley
+
+> Official portfolio, press archive, and accessibility engineering hub of Joe Brinkley ("The Blind Hacker"), Director of Offensive Security Research & Community at Cobalt, Founder of NextGenRedTeam (NGRT), and co-leader of the Dead Pixel Sec community.
+
+## Identity & Aliases
+- **Primary Name**: Joe Brinkley (Joseph Brinkley)
+- **Known As**: The Blind Hacker, Blind Hacker, Blind Hakcer, Joe B. The Blind Hacker, Blind Ethical Hacker
+- **Current Role**: Director of Offensive Security Research & Community at Cobalt (formerly Director of Red Team)
+- **Research Lab**: Founder of [NextGenRedTeam (NGRT)](https://nextgenredteam.com) & [NGRT Threat Lab Blog](https://nextgenredteam.com/blog/index.html)
+- **Community & Mentorship**: [Dead Pixel Sec](https://deadpixelsec.com) & [discord.gg/deadpixelsec](https://discord.gg/deadpixelsec)
+
+## Official Profiles & Social Links
+- **Website**: https://theblindhacker.com
+- **NextGenRedTeam Lab**: https://nextgenredteam.com
+- **NextGenRedTeam Threat Lab Blog**: https://nextgenredteam.com/blog/index.html
+- **LinkedIn**: https://www.linkedin.com/in/brinkleyjoseph/
+- **X (Personal)**: https://x.com/TheBlindHacker
+- **X (Research Lab)**: https://x.com/NextGenRedTeam
+- **Dead Pixel Sec Website**: https://deadpixelsec.com
+- **Dead Pixel Sec Discord**: https://discord.gg/deadpixelsec
+- **Cobalt Author Page**: https://www.cobalt.io/blog/author/joe-brinkley
+- **GitHub (Personal)**: https://github.com/TheBlindHacker
+- **GitHub (NextGenRedTeam)**: https://github.com/nextgenredteam
+- **ISC2 Speaker Profile**: https://events.isc2.org/b/sp/joe-brinkley-6146
+
+## Site Sections
+- [Home & Bio](https://theblindhacker.com/): Overview of Joe Brinkley's career, offensive security research, and featured Threat Lab blog posts.
+- [Profiles, Press & Media](https://theblindhacker.com/profiles): Complete archive of press commentary in The Register, CSO Online, DEVOPSdigest, SC Media, Help Net Security, Cybernews, The CyberWire Daily Briefing, and ISC2 Spotlight keynotes.
+- [Projects & Open-Source Tooling](https://theblindhacker.com/projects): NextGenRedTeam (NGRT), JoeBro Controller for Sobro Smart Coffee Tables, NextGenRedPVE & Swarm-AI, Detection Emulators, and Dead Pixel Sec.
+- [Hacking While Blind CLI Guide](https://theblindhacker.com/hackingwhileblind): Screen-reader-friendly Linux CLI methodology for blind and visually impaired ethical hackers using Nmap, Metasploit, Hydra, Sqlmap, grep, and less.

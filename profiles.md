@@ -1,5 +1,7 @@
 ---
-title: Profiles & Media
+title: "Profiles, Press & Media | The Blind Hacker (Joe Brinkley)"
+description: "Media appearances, press quotes, keynotes, podcasts, and social profiles for Joe Brinkley (The Blind Hacker), Director of Offensive Security Research & Community at Cobalt and Founder of NextGenRedTeam."
+keywords: "Joe Brinkley, Joseph Brinkley, The Blind Hacker, Blind Hacker, Blind Hakcer, Cobalt Director of Offensive Security Research, Head of Pentesting, CSO Online, The Register, Dark Reading, DEVOPSdigest, CyberWire, NextGenRedTeam, Dead Pixel Sec"
 layout: home
 permalink: profiles
 ---
@@ -11,9 +13,10 @@ Find me on these platforms and labs:
 <div class="media-grid" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); margin-bottom: 50px;">
   <div class="media-card">
     <h3 style="display:flex; align-items:center; gap:8px;">⚔️ NextGenRedTeam</h3>
-    <p>Threat Research Lab (Est. 2020)</p>
+    <p>Threat Research Lab &amp; Blog (Est. 2020)</p>
     <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
       <a href="https://nextgenredteam.com" class="media-link" target="_blank" rel="noopener">Visit NextGenRedTeam.com</a>
+      <a href="https://nextgenredteam.com/blog/index.html" class="media-link" target="_blank" rel="noopener">Read Threat Lab Blog</a>
       <a href="https://x.com/NextGenRedTeam" class="media-link" target="_blank" rel="noopener">Follow @NextGenRedTeam</a>
     </div>
   </div>

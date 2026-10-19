@@ -1,5 +1,7 @@
 ---
-title: Projects
+title: "Projects & Threat Lab | The Blind Hacker (Joe Brinkley)"
+description: "Explore open-source offensive security tools, Threat Lab research blog posts at NextGenRedTeam.com, the JoeBro Sobro hardware rescue PWA, and the Dead Pixel Sec community by Joe Brinkley (The Blind Hacker)."
+keywords: "The Blind Hacker Projects, Blind Hacker, Blind Hakcer, Joe Brinkley, NextGenRedTeam, NGRT Blog, JoeBro Controller, Sobro Smart Table Rescue, Dead Pixel Sec, EventID4625, Threat Emulation"
 layout: home
 permalink: projects
 published: true
@@ -13,9 +15,12 @@ published: true
 
   <div class="media-card">
     <span class="media-tag">Research Lab (Est. 2020)</span>
-    <h3>NextGenRedTeam (NGRT)</h3>
-    <p>Independent threat emulation research lab specializing in purple teaming, detection validation, and open-source offensive tooling. Went public with threat lab research and hardware rescues.</p>
-    <a href="https://nextgenredteam.com" class="media-link" target="_blank" rel="noopener">Visit NextGenRedTeam.com</a>
+    <h3>NextGenRedTeam (NGRT) &amp; Threat Lab Blog</h3>
+    <p>Independent threat emulation research lab specializing in purple teaming, detection validation, local AI/NPU benchmarks, and open-source offensive tooling.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://nextgenredteam.com" class="media-link" target="_blank" rel="noopener">Visit NextGenRedTeam.com</a>
+      <a href="https://nextgenredteam.com/blog/index.html" class="media-link" target="_blank" rel="noopener">Read Threat Lab Blog</a>
+    </div>
   </div>
 
   <div class="media-card">

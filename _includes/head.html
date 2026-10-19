@@ -2,8 +2,76 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>{{ site.title }}{{ page.title }}</title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="keywords" content="{{ page.keywords | default: 'The Blind Hacker, Blind Hacker, Blind Hakcer, TheBlindHacker, Blind Ethical Hacker, Hacking While Blind, Joe Brinkley, Joseph Brinkley, Joe B. The Blind Hacker, Director of Offensive Security Research, Director of Pentesting, Head of Pentesting, Cobalt, NextGenRedTeam, NGRT, Dead Pixel Sec, DeadPixelSec, AI Pentesting, Red Team, Purple Team, Accessibility in Cybersecurity' }}">
+  <meta name="author" content="Joe Brinkley (The Blind Hacker)">
+  <meta name="robots" content="index, follow">
+  <meta name="twitter:site" content="@TheBlindHacker">
+  <meta name="twitter:creator" content="@TheBlindHacker">
   {%- seo title=false -%}
+
+  <!-- Person & Identity Graph Schema for Search & AI Engines (LLMO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Joe Brinkley",
+    "alternateName": [
+      "The Blind Hacker",
+      "Blind Hacker",
+      "Blind Hakcer",
+      "TheBlindHacker",
+      "Joseph Brinkley",
+      "Joe B. The Blind Hacker",
+      "Blind Ethical Hacker"
+    ],
+    "jobTitle": "Director of Offensive Security Research & Community",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Cobalt",
+      "url": "https://www.cobalt.io"
+    },
+    "founder": [
+      {
+        "@type": "Organization",
+        "name": "NextGenRedTeam (NGRT)",
+        "url": "https://nextgenredteam.com"
+      },
+      {
+        "@type": "Organization",
+        "name": "Dead Pixel Sec",
+        "url": "https://deadpixelsec.com"
+      }
+    ],
+    "url": "https://theblindhacker.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/brinkleyjoseph/",
+      "https://x.com/TheBlindHacker",
+      "https://x.com/NextGenRedTeam",
+      "https://nextgenredteam.com",
+      "https://nextgenredteam.com/blog/index.html",
+      "https://deadpixelsec.com",
+      "https://discord.gg/deadpixelsec",
+      "https://github.com/TheBlindHacker",
+      "https://github.com/nextgenredteam",
+      "https://www.cobalt.io/blog/author/joe-brinkley",
+      "https://events.isc2.org/b/sp/joe-brinkley-6146",
+      "https://infosec.exchange/@TheBlindHacker",
+      "https://www.twitch.tv/theblindhacker"
+    ],
+    "knowsAbout": [
+      "Offensive Security",
+      "Penetration Testing",
+      "Red Teaming",
+      "Purple Teaming",
+      "AI Security Testing",
+      "Threat Emulation",
+      "Hacking While Blind",
+      "Screen Reader CLI Accessibility",
+      "Hardware Reverse Engineering"
+    ]
+  }
+  </script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/open-dyslexic.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,3 +84,4 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
+
