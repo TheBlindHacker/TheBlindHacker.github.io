@@ -43,7 +43,10 @@ published: true
     <span class="media-tag">Community</span>
     <h3>Dead Pixel Sec</h3>
     <p>A thriving cybersecurity community providing collaborative research space, CTF participation, technical mentorship, and career navigation for defenders and operators.</p>
-    <a href="http://discord.deadpixelsec.com" class="media-link" target="_blank" rel="noopener">Join Discord</a>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://deadpixelsec.com" class="media-link" target="_blank" rel="noopener">Visit DeadPixelSec.com</a>
+      <a href="https://discord.gg/deadpixelsec" class="media-link" target="_blank" rel="noopener">Join Discord (discord.gg/deadpixelsec)</a>
+    </div>
   </div>
 
   <div class="media-card">
