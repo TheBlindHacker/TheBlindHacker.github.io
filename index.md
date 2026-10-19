@@ -8,7 +8,7 @@ permalink: /
 
 # The Blind Hacker
 
-# Bio:  
+## Bio  
 <br />  
 The Blind Hacker (Joe Brinkley) is an offensive security researcher, mentor, speaker, and former Director of Red Team, currently serving as Director of Offensive Security Research & Community at Cobalt. He is also the founder of **[NextGenRedTeam (NGRT)](https://nextgenredteam.com)**, an independent research lab established in 2020 that went public with its [Threat Lab Research Blog](https://nextgenredteam.com/blog/index.html), offensive playbooks, and hardware rescues.
 

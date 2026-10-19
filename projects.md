@@ -9,7 +9,7 @@ published: true
 
 # The Blind Hacker
 
-# Featured Projects & Research Initiatives
+## Featured Projects & Research Initiatives
 
 <div class="media-grid">
 

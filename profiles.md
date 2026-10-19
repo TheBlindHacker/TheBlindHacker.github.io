@@ -68,9 +68,9 @@ Find me on these platforms and labs:
 <div class="media-grid">
 
   <div class="media-card">
-    <span class="media-tag">Keynote Speaker</span>
-    <h3>Secure Carolinas 2026: Automated Attack Surfaces &amp; Agentic AI</h3>
-    <p>AegisX Conference (August 2026). Keynote presentation on integrating high-density edge AI hardware with agentic workflows for Continuous Penetration Testing (CPT).</p>
+    <span class="media-tag">Featured Speaker</span>
+    <h3>Secure Carolinas 2026: Vibe Hacking &amp; Automated Attack Surfaces</h3>
+    <p>AegisX Conference (August 2026). Featured speaker session covering "Vibe Hacking: How I Built a World-Class Hacking Tool in a Weekend" alongside integrating high-density edge AI hardware with agentic workflows for Continuous Penetration Testing (CPT).</p>
     <a href="https://aegisx.events/" class="media-link" target="_blank" rel="noopener">View AegisX Conference</a>
   </div>
 

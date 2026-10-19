@@ -1,8 +1,32 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
-<header class="sticky-nav">
+<header class="sticky-nav" role="banner">
+  <div class="header-bar">
+    <!-- Top-Left Accessibility Toolbar (Theme + Text Size) -->
+    <div class="a11y-toolbar" role="region" aria-label="Accessibility Display Controls">
+      <button type="button" id="theme-toggle" class="a11y-btn" aria-pressed="false" aria-label="Switch to Light Mode" title="Toggle Dark / Light Theme">
+        <span class="theme-icon" aria-hidden="true">☀️</span>
+        <span id="theme-toggle-label">Light Mode</span>
+      </button>
+      <div class="a11y-font-group" role="group" aria-label="Text Size Controls">
+        <button type="button" id="font-decrease" class="a11y-btn" aria-label="Decrease text size" title="Decrease text size">A-</button>
+        <button type="button" id="font-reset" class="a11y-btn" aria-label="Reset text size to 100%" title="Reset text size">100%</button>
+        <button type="button" id="font-increase" class="a11y-btn" aria-label="Increase text size" title="Increase text size">A+</button>
+      </div>
+      <span id="a11y-live-status" class="sr-only" aria-live="polite"></span>
+    </div>
+
+    <!-- Mobile Hamburger Button -->
+    <button type="button" id="mobile-menu-toggle" class="hamburger-btn" aria-expanded="false" aria-controls="primary-nav-list" aria-label="Toggle Navigation and Accessibility Menu">
+      <span class="hamburger-bar" aria-hidden="true"></span>
+      <span class="hamburger-bar" aria-hidden="true"></span>
+      <span class="hamburger-bar" aria-hidden="true"></span>
+      <span class="hamburger-label">Menu</span>
+    </button>
+  </div>
+
   <!-- Main navigation with accessible label -->
   <nav aria-label="Main Navigation" class="menu">
-    <ul>
+    <ul id="primary-nav-list" class="nav-list">
       {%- for path in page_paths -%}
       {%- assign my_page = site.pages | where: "path", path | first -%}
       {%- if my_page.title -%}
@@ -12,6 +36,111 @@
       <li><a href="https://nextgenredteam.com/blog/index.html" target="_blank" rel="noopener">Threat Lab Blog</a></li>
       <li><a href="https://www.linkedin.com/in/brinkleyjoseph/" target="_blank" rel="noopener" aria-label="Joe Brinkley on LinkedIn">LinkedIn</a></li>
       <li><a href="https://x.com/TheBlindHacker" target="_blank" rel="noopener" aria-label="The Blind Hacker on X">@TheBlindHacker</a></li>
+      <!-- Mobile-only Accessibility Quick Controls inside Hamburger Drawer -->
+      <li class="mobile-a11y-drawer" role="group" aria-label="Mobile Accessibility Controls">
+        <span class="mobile-a11y-title">Display &amp; Text Size:</span>
+        <div class="mobile-a11y-actions">
+          <button type="button" id="mobile-theme-toggle" class="a11y-btn" aria-pressed="false" aria-label="Switch to Light Mode">☀️ Light Mode</button>
+          <button type="button" id="mobile-font-decrease" class="a11y-btn" aria-label="Decrease text size">A-</button>
+          <button type="button" id="mobile-font-reset" class="a11y-btn" aria-label="Reset text size">100%</button>
+          <button type="button" id="mobile-font-increase" class="a11y-btn" aria-label="Increase text size">A+</button>
+        </div>
+      </li>
     </ul>
   </nav>
 </header>
+
+<script>
+(function() {
+  var htmlEl = document.documentElement;
+  var themeBtn = document.getElementById('theme-toggle');
+  var themeLabel = document.getElementById('theme-toggle-label');
+  var themeIcon = themeBtn ? themeBtn.querySelector('.theme-icon') : null;
+  var mobileThemeBtn = document.getElementById('mobile-theme-toggle');
+  var fontResetBtn = document.getElementById('font-reset');
+  var mobileFontResetBtn = document.getElementById('mobile-font-reset');
+  var liveStatus = document.getElementById('a11y-live-status');
+  var menuToggle = document.getElementById('mobile-menu-toggle');
+  var navList = document.getElementById('primary-nav-list');
+
+  // Default to current Dark theme unless user explicitly chose light
+  var currentTheme = localStorage.getItem('tbh_theme') || 'dark';
+  var currentScale = parseInt(localStorage.getItem('tbh_font_scale') || '100', 10);
+  if (isNaN(currentScale) || currentScale < 85 || currentScale > 150) {
+    currentScale = 100;
+  }
+
+  function announce(msg) {
+    if (liveStatus) {
+      liveStatus.textContent = msg;
+    }
+  }
+
+  function applyTheme(theme, shouldAnnounce) {
+    currentTheme = theme;
+    htmlEl.setAttribute('data-theme', theme);
+    localStorage.setItem('tbh_theme', theme);
+    var isLight = (theme === 'light');
+    if (themeBtn && themeLabel && themeIcon) {
+      themeBtn.setAttribute('aria-pressed', isLight ? 'true' : 'false');
+      themeBtn.setAttribute('aria-label', isLight ? 'Switch to Dark Mode' : 'Switch to Light Mode');
+      themeIcon.textContent = isLight ? '🌙' : '☀️';
+      themeLabel.textContent = isLight ? 'Dark Mode' : 'Light Mode';
+    }
+    if (mobileThemeBtn) {
+      mobileThemeBtn.setAttribute('aria-pressed', isLight ? 'true' : 'false');
+      mobileThemeBtn.setAttribute('aria-label', isLight ? 'Switch to Dark Mode' : 'Switch to Light Mode');
+      mobileThemeBtn.textContent = isLight ? '🌙 Dark Mode' : '☀️ Light Mode';
+    }
+    if (shouldAnnounce) {
+      announce(isLight ? 'Light mode enabled' : 'Dark mode enabled');
+    }
+  }
+
+  function applyFontScale(scale, shouldAnnounce) {
+    currentScale = Math.max(85, Math.min(150, scale));
+    htmlEl.style.fontSize = currentScale + '%';
+    localStorage.setItem('tbh_font_scale', String(currentScale));
+    if (fontResetBtn) {
+      fontResetBtn.textContent = currentScale + '%';
+      fontResetBtn.setAttribute('aria-label', 'Reset text size (currently ' + currentScale + '%)');
+    }
+    if (mobileFontResetBtn) {
+      mobileFontResetBtn.textContent = currentScale + '%';
+    }
+    if (shouldAnnounce) {
+      announce('Text size set to ' + currentScale + ' percent');
+    }
+  }
+
+  applyTheme(currentTheme, false);
+  applyFontScale(currentScale, false);
+
+  function toggleTheme() {
+    applyTheme(currentTheme === 'dark' ? 'light' : 'dark', true);
+  }
+
+  if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
+  if (mobileThemeBtn) mobileThemeBtn.addEventListener('click', toggleTheme);
+
+  var incBtn = document.getElementById('font-increase');
+  var decBtn = document.getElementById('font-decrease');
+  var mobIncBtn = document.getElementById('mobile-font-increase');
+  var mobDecBtn = document.getElementById('mobile-font-decrease');
+
+  if (incBtn) incBtn.addEventListener('click', function() { applyFontScale(currentScale + 10, true); });
+  if (decBtn) decBtn.addEventListener('click', function() { applyFontScale(currentScale - 10, true); });
+  if (fontResetBtn) fontResetBtn.addEventListener('click', function() { applyFontScale(100, true); });
+  if (mobIncBtn) mobIncBtn.addEventListener('click', function() { applyFontScale(currentScale + 10, true); });
+  if (mobDecBtn) mobDecBtn.addEventListener('click', function() { applyFontScale(currentScale - 10, true); });
+  if (mobileFontResetBtn) mobileFontResetBtn.addEventListener('click', function() { applyFontScale(100, true); });
+
+  if (menuToggle && navList) {
+    menuToggle.addEventListener('click', function() {
+      var expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      navList.classList.toggle('is-open', !expanded);
+    });
+  }
+})();
+</script>
