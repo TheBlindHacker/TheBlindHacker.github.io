@@ -38,6 +38,7 @@ published: true
     <h3>Axera AX8850 Zero-Copy NPU Engine</h3>
     <p>Virtualizing a 24 TOPS PCIe edge NPU inside Proxmox VE LXC containers, eliminating CMM memory-copy bottlenecks, and auditing vendor C/C++ runtime SDKs for DMA and memory corruption flaws.</p>
     <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter" class="media-link" target="_blank" rel="noopener">Dissecting AX-LLM CVEs (Cobalt)</a>
       <a href="https://nextgenredteam.com/blog/ultimate-guide-zero-copy-ax8850.html" class="media-link" target="_blank" rel="noopener">Read Zero-Copy NPU Guide</a>
       <a href="https://nextgenredteam.com/blog/conquering-silicon-edge-npu.html" class="media-link" target="_blank" rel="noopener">Conquering the Silicon</a>
     </div>

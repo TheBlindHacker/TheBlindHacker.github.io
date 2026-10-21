@@ -19,6 +19,7 @@
 - **Dead Pixel Sec Website**: https://deadpixelsec.com
 - **Dead Pixel Sec Discord**: https://discord.gg/deadpixelsec
 - **Cobalt Author Page**: https://www.cobalt.io/blog/author/joe-brinkley
+- **Latest Cobalt CVE Advisory (AX-LLM NPU 0-Days)**: https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter
 - **GitHub (Personal)**: https://github.com/TheBlindHacker
 - **GitHub (NextGenRedTeam)**: https://github.com/nextgenredteam
 - **ISC2 Speaker Profile**: https://events.isc2.org/b/sp/joe-brinkley-6146

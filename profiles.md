@@ -137,6 +137,13 @@ Find me on these platforms and labs:
 <div class="media-grid">
 
   <div class="media-card">
+    <span class="media-tag">Cobalt Research // CVE Advisory</span>
+    <h3>Dissecting the AX-LLM CVEs: Why Edge AI Memory and Execution Boundaries Matter</h3>
+    <p>“When vendors port cloud LLM runtimes directly to bare-metal NPU silicon without memory isolation, unauthenticated HTTP inputs map straight to Contiguous Media Memory (CMM) DMA buffers and root shell execution.”</p>
+    <a href="https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter" class="media-link" target="_blank" rel="noopener">Read CVE Analysis on Cobalt</a>
+  </div>
+
+  <div class="media-card">
     <span class="media-tag">DEVOPSdigest Feature</span>
     <h3>Why Your Annual Pentest Is a Liability: Closing the Exposure Window</h3>
     <p>“Organizations treat the annual pentest like a fire drill—a scheduled compliance checkbox where a static report sits on a shelf for 12 months while engineering ships dozens of microservices, cloud drift, and unreviewed API endpoints into production.”</p>
