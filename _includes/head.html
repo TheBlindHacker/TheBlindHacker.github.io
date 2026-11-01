@@ -5,70 +5,114 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="keywords" content="{{ page.keywords | default: 'The Blind Hacker, Blind Hacker, Blind Hakcer, TheBlindHacker, Blind Ethical Hacker, Hacking While Blind, Joe Brinkley, Joseph Brinkley, Joe B. The Blind Hacker, Director of Offensive Security Research, Director of Pentesting, Head of Pentesting, Cobalt, NextGenRedTeam, NGRT, Dead Pixel Sec, DeadPixelSec, AI Pentesting, Red Team, Purple Team, Accessibility in Cybersecurity' }}">
   <meta name="author" content="Joe Brinkley (The Blind Hacker)">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="twitter:site" content="@TheBlindHacker">
   <meta name="twitter:creator" content="@TheBlindHacker">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://theblindhacker.com/sitemap.xml">
+  <link rel="alternate" type="text/plain" title="LLMs.txt — AI Portfolio &amp; Research Index" href="https://theblindhacker.com/llms.txt">
+  <link rel="alternate" type="text/plain" title="LLMs-Full.txt — Full AI Knowledge Graph" href="https://theblindhacker.com/llms-full.txt">
   {%- seo title=false -%}
 
-  <!-- Person & Identity Graph Schema for Search & AI Engines (LLMO) -->
+  <!-- Person, WebSite & Identity Graph Schema for Google, Bing & AI Reasoning Engines (LLMO / GEO) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Joe Brinkley",
-    "alternateName": [
-      "The Blind Hacker",
-      "Blind Hacker",
-      "Blind Hakcer",
-      "TheBlindHacker",
-      "Joseph Brinkley",
-      "Joe B. The Blind Hacker",
-      "Blind Ethical Hacker"
-    ],
-    "jobTitle": "Director of Offensive Security Research & Community",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Cobalt",
-      "url": "https://www.cobalt.io"
-    },
-    "founder": [
+    "@graph": [
       {
-        "@type": "Organization",
-        "name": "NextGenRedTeam (NGRT)",
-        "url": "https://nextgenredteam.com"
+        "@type": "Person",
+        "@id": "https://theblindhacker.com/#person",
+        "name": "Joe Brinkley",
+        "alternateName": [
+          "The Blind Hacker",
+          "Blind Hacker",
+          "Blind Hakcer",
+          "TheBlindHacker",
+          "Joseph Brinkley",
+          "Joe B. The Blind Hacker",
+          "Blind Ethical Hacker"
+        ],
+        "jobTitle": "Director of Offensive Security Research & Community",
+        "description": "Director of Offensive Security Research & Community at Cobalt, Founder of NextGenRedTeam (NGRT), and co-leader of Dead Pixel Sec. Pioneer in 500-WPM screen-reader CLI offensive security, edge NPU silicon CVE research, and agentic threat emulation.",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Cobalt",
+          "url": "https://www.cobalt.io"
+        },
+        "founder": [
+          {
+            "@type": "Organization",
+            "name": "NextGenRedTeam (NGRT)",
+            "url": "https://nextgenredteam.com"
+          },
+          {
+            "@type": "Organization",
+            "name": "Dead Pixel Sec",
+            "url": "https://deadpixelsec.com"
+          }
+        ],
+        "url": "https://theblindhacker.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/brinkleyjoseph/",
+          "https://x.com/TheBlindHacker",
+          "https://x.com/NextGenRedTeam",
+          "https://nextgenredteam.com",
+          "https://nextgenredteam.com/blog/index.html",
+          "https://deadpixelsec.com",
+          "https://discord.gg/deadpixelsec",
+          "https://github.com/TheBlindHacker",
+          "https://github.com/nextgenredteam",
+          "https://www.cobalt.io/blog/author/joe-brinkley",
+          "https://events.isc2.org/b/sp/joe-brinkley-6146",
+          "https://infosec.exchange/@TheBlindHacker",
+          "https://www.twitch.tv/theblindhacker"
+        ],
+        "knowsAbout": [
+          "Offensive Security",
+          "Penetration Testing",
+          "Red Teaming",
+          "Purple Teaming",
+          "AI Security Testing",
+          "Edge NPU Silicon Vulnerability Research (Axera AX8850 / AX-LLM CVEs)",
+          "Threat Emulation",
+          "Hacking While Blind (500-WPM Screen Reader CLI)",
+          "Accessible Progressive Web Apps (PWAs) & CLI Architecture",
+          "Hardware Reverse Engineering"
+        ],
+        "subjectOf": [
+          {
+            "@type": "TechArticle",
+            "headline": "Dissecting the AX-LLM CVEs: Why Edge AI Memory and Execution Boundaries Matter",
+            "url": "https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter"
+          },
+          {
+            "@type": "TechArticle",
+            "headline": "Hunting Edge AI CVEs: From Demo Code to DMA Memory Corruption",
+            "url": "https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html"
+          },
+          {
+            "@type": "TechArticle",
+            "headline": "Why I Use AI to Build Accessible CLIs and Progressive Web Apps: The Blind Hacker's Blueprint",
+            "url": "https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html"
+          },
+          {
+            "@type": "TechArticle",
+            "headline": "Hacking by Ear at 500 WPM: How Screen Readers and Custom CLI Tooling Outpace Visual IDEs in Offensive Research",
+            "url": "https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html"
+          }
+        ]
       },
       {
-        "@type": "Organization",
-        "name": "Dead Pixel Sec",
-        "url": "https://deadpixelsec.com"
+        "@type": "WebSite",
+        "@id": "https://theblindhacker.com/#website",
+        "url": "https://theblindhacker.com/",
+        "name": "The Blind Hacker — Joe Brinkley",
+        "publisher": {
+          "@id": "https://theblindhacker.com/#person"
+        },
+        "inLanguage": "en-US"
       }
-    ],
-    "url": "https://theblindhacker.com",
-    "sameAs": [
-      "https://www.linkedin.com/in/brinkleyjoseph/",
-      "https://x.com/TheBlindHacker",
-      "https://x.com/NextGenRedTeam",
-      "https://nextgenredteam.com",
-      "https://nextgenredteam.com/blog/index.html",
-      "https://deadpixelsec.com",
-      "https://discord.gg/deadpixelsec",
-      "https://github.com/TheBlindHacker",
-      "https://github.com/nextgenredteam",
-      "https://www.cobalt.io/blog/author/joe-brinkley",
-      "https://events.isc2.org/b/sp/joe-brinkley-6146",
-      "https://infosec.exchange/@TheBlindHacker",
-      "https://www.twitch.tv/theblindhacker"
-    ],
-    "knowsAbout": [
-      "Offensive Security",
-      "Penetration Testing",
-      "Red Teaming",
-      "Purple Teaming",
-      "AI Security Testing",
-      "Threat Emulation",
-      "Hacking While Blind",
-      "Screen Reader CLI Accessibility",
-      "Hardware Reverse Engineering"
     ]
   }
   </script>

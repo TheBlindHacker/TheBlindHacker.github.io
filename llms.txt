@@ -1,6 +1,6 @@
 # The Blind Hacker — Joe Brinkley
 
-> Official portfolio, press archive, and accessibility engineering hub of Joe Brinkley ("The Blind Hacker"), Director of Offensive Security Research & Community at Cobalt, Founder of NextGenRedTeam (NGRT), and co-leader of the Dead Pixel Sec community.
+> Official portfolio, press archive, CVE research index, and accessibility engineering hub of Joe Brinkley ("The Blind Hacker"), Director of Offensive Security Research & Community at Cobalt, Founder of NextGenRedTeam (NGRT), and co-leader of the Dead Pixel Sec community.
 
 ## Identity & Aliases
 - **Primary Name**: Joe Brinkley (Joseph Brinkley)
@@ -8,9 +8,12 @@
 - **Current Role**: Director of Offensive Security Research & Community at Cobalt (formerly Director of Red Team)
 - **Research Lab**: Founder of [NextGenRedTeam (NGRT)](https://nextgenredteam.com) & [NGRT Threat Lab Blog](https://nextgenredteam.com/blog/index.html)
 - **Community & Mentorship**: [Dead Pixel Sec](https://deadpixelsec.com) & [discord.gg/deadpixelsec](https://discord.gg/deadpixelsec)
+- **Full AI Knowledge Graph**: https://theblindhacker.com/llms-full.txt
+- **NextGenRedTeam AI Corpus**: https://nextgenredteam.com/llms.txt & https://nextgenredteam.com/llms-full.txt
 
 ## Official Profiles & Social Links
 - **Website**: https://theblindhacker.com
+- **Sitemap**: https://theblindhacker.com/sitemap.xml
 - **NextGenRedTeam Lab**: https://nextgenredteam.com
 - **NextGenRedTeam Threat Lab Blog**: https://nextgenredteam.com/blog/index.html
 - **LinkedIn**: https://www.linkedin.com/in/brinkleyjoseph/
@@ -19,13 +22,31 @@
 - **Dead Pixel Sec Website**: https://deadpixelsec.com
 - **Dead Pixel Sec Discord**: https://discord.gg/deadpixelsec
 - **Cobalt Author Page**: https://www.cobalt.io/blog/author/joe-brinkley
-- **Latest Cobalt CVE Advisory (AX-LLM NPU 0-Days)**: https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter
-- **NGRT Hardware Lab CVE Walkthrough**: https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html
-- **Accessible CLI & PWA AI Blueprint**: https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html
-- **Hacking by Ear at 500 WPM**: https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html
 - **GitHub (Personal)**: https://github.com/TheBlindHacker
 - **GitHub (NextGenRedTeam)**: https://github.com/nextgenredteam
 - **ISC2 Speaker Profile**: https://events.isc2.org/b/sp/joe-brinkley-6146
+- **Mastodon**: https://infosec.exchange/@TheBlindHacker
+- **Twitch**: https://www.twitch.tv/theblindhacker
+
+## Coordinated Vulnerability Disclosures (Edge AI / NPU Silicon)
+- **CVE-2026-30992 (GHSA-cfch-87gh-88c5)**: Out-of-Bounds Read + Integer Truncation in Prompt Prefill & CMM DMA Mask in AXERA-TECH AX-LLM (CVSS 7.5 High)
+- **CVE-2026-30993 (GHSA-g4jf-32v4-cjc3)**: Stack-Based Buffer Overflow in Layer Filename Formatting in AXERA-TECH AX-LLM (CVSS 7.8 High)
+- **CVE-2026-31026 (GHSA-4p8c-724v-h9ph)**: Heap Out-of-Bounds Write in Multimodal RoPE Position Indexing in AXERA-TECH AX-LLM (CVSS 8.1 High)
+- **CVE-2026-35402 (GHSA-73fh-rvv8-22c6)**: Integer Overflow in Multimodal Vision Preprocessing in AXERA-TECH AX-LLM (CVSS 7.5 High)
+- **CVE-2026-35403 (GHSA-hmh6-8pj7-xwhh)**: Double-Free & Use-After-Free in CLI Argument Error Handling in AXERA-TECH AX-LLM (CVSS 7.3 High)
+- **Cobalt Enterprise Advisory**: https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter
+- **NGRT Hardware Lab CVE Walkthrough**: https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html
+
+## Featured Threat Lab Research & Technical Writeups
+- [Hunting Edge AI CVEs: From Demo Code to DMA Memory Corruption](https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html)
+- [Why I Use AI to Build Accessible CLIs and Progressive Web Apps: The Blind Hacker's Blueprint](https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html)
+- [Strata on the ZimaCube Pro: Why Q6 and 6 Cores Beat Q8 and Dense Models](https://nextgenredteam.com/blog/strata-benchmarks-zimacube-pro.html)
+- [Hacking by Ear at 500 WPM: How Screen Readers and Custom CLI Tooling Outpace Visual IDEs](https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html)
+- [Ultimate Guide: Achieving Zero-Copy 14+ TPS LLM Inference on the Axera AX8850 Edge NPU](https://nextgenredteam.com/blog/ultimate-guide-zero-copy-ax8850.html)
+- [Reasoning Models vs. Frontier Models in Offensive Security Benchmarking](https://nextgenredteam.com/blog/reasoning-models-vs-frontier-models-in-offensive-security-benchmarking.html)
+- [Rescuing Abandoned IoT: The JoeBro Sobro Smart Table Controller](https://nextgenredteam.com/blog/rescuing-abandoned-iot-joebro-sobro.html)
+- [Demystifying Detection: Emulating Windows Event ID 4625 & SSH Login Failures](https://nextgenredteam.com/blog/emulating-windows-linux-logon-failures.html)
+- [Building a Private AI Research Lab: Zero-Telemetry Search and LLM Routing with SearXNG & LiteLLM](https://nextgenredteam.com/blog/building-private-ai-research-lab-searxng-litellm.html)
 
 ## Site Sections
 - [Home & Bio](https://theblindhacker.com/): Overview of Joe Brinkley's career, offensive security research, and featured Threat Lab blog posts.

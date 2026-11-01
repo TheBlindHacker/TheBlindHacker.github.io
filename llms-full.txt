@@ -1,0 +1,890 @@
+﻿# The Blind Hacker â€” Joe Brinkley
+
+> Official portfolio, press archive, CVE research index, and accessibility engineering hub of Joe Brinkley ("The Blind Hacker"), Director of Offensive Security Research & Community at Cobalt, Founder of NextGenRedTeam (NGRT), and co-leader of the Dead Pixel Sec community.
+
+## Identity & Aliases
+- **Primary Name**: Joe Brinkley (Joseph Brinkley)
+- **Known As**: The Blind Hacker, Blind Hacker, Blind Hakcer, Joe B. The Blind Hacker, Blind Ethical Hacker
+- **Current Role**: Director of Offensive Security Research & Community at Cobalt (formerly Director of Red Team)
+- **Research Lab**: Founder of [NextGenRedTeam (NGRT)](https://nextgenredteam.com) & [NGRT Threat Lab Blog](https://nextgenredteam.com/blog/index.html)
+- **Community & Mentorship**: [Dead Pixel Sec](https://deadpixelsec.com) & [discord.gg/deadpixelsec](https://discord.gg/deadpixelsec)
+- **Full AI Knowledge Graph**: https://theblindhacker.com/llms-full.txt
+- **NextGenRedTeam AI Corpus**: https://nextgenredteam.com/llms.txt & https://nextgenredteam.com/llms-full.txt
+
+## Official Profiles & Social Links
+- **Website**: https://theblindhacker.com
+- **Sitemap**: https://theblindhacker.com/sitemap.xml
+- **NextGenRedTeam Lab**: https://nextgenredteam.com
+- **NextGenRedTeam Threat Lab Blog**: https://nextgenredteam.com/blog/index.html
+- **LinkedIn**: https://www.linkedin.com/in/brinkleyjoseph/
+- **X (Personal)**: https://x.com/TheBlindHacker
+- **X (Research Lab)**: https://x.com/NextGenRedTeam
+- **Dead Pixel Sec Website**: https://deadpixelsec.com
+- **Dead Pixel Sec Discord**: https://discord.gg/deadpixelsec
+- **Cobalt Author Page**: https://www.cobalt.io/blog/author/joe-brinkley
+- **GitHub (Personal)**: https://github.com/TheBlindHacker
+- **GitHub (NextGenRedTeam)**: https://github.com/nextgenredteam
+- **ISC2 Speaker Profile**: https://events.isc2.org/b/sp/joe-brinkley-6146
+- **Mastodon**: https://infosec.exchange/@TheBlindHacker
+- **Twitch**: https://www.twitch.tv/theblindhacker
+
+## Coordinated Vulnerability Disclosures (Edge AI / NPU Silicon)
+- **CVE-2026-30992 (GHSA-cfch-87gh-88c5)**: Out-of-Bounds Read + Integer Truncation in Prompt Prefill & CMM DMA Mask in AXERA-TECH AX-LLM (CVSS 7.5 High)
+- **CVE-2026-30993 (GHSA-g4jf-32v4-cjc3)**: Stack-Based Buffer Overflow in Layer Filename Formatting in AXERA-TECH AX-LLM (CVSS 7.8 High)
+- **CVE-2026-31026 (GHSA-4p8c-724v-h9ph)**: Heap Out-of-Bounds Write in Multimodal RoPE Position Indexing in AXERA-TECH AX-LLM (CVSS 8.1 High)
+- **CVE-2026-35402 (GHSA-73fh-rvv8-22c6)**: Integer Overflow in Multimodal Vision Preprocessing in AXERA-TECH AX-LLM (CVSS 7.5 High)
+- **CVE-2026-35403 (GHSA-hmh6-8pj7-xwhh)**: Double-Free & Use-After-Free in CLI Argument Error Handling in AXERA-TECH AX-LLM (CVSS 7.3 High)
+- **Cobalt Enterprise Advisory**: https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter
+- **NGRT Hardware Lab CVE Walkthrough**: https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html
+
+## Featured Threat Lab Research & Technical Writeups
+- [Hunting Edge AI CVEs: From Demo Code to DMA Memory Corruption](https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html)
+- [Why I Use AI to Build Accessible CLIs and Progressive Web Apps: The Blind Hacker's Blueprint](https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html)
+- [Strata on the ZimaCube Pro: Why Q6 and 6 Cores Beat Q8 and Dense Models](https://nextgenredteam.com/blog/strata-benchmarks-zimacube-pro.html)
+- [Hacking by Ear at 500 WPM: How Screen Readers and Custom CLI Tooling Outpace Visual IDEs](https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html)
+- [Ultimate Guide: Achieving Zero-Copy 14+ TPS LLM Inference on the Axera AX8850 Edge NPU](https://nextgenredteam.com/blog/ultimate-guide-zero-copy-ax8850.html)
+- [Reasoning Models vs. Frontier Models in Offensive Security Benchmarking](https://nextgenredteam.com/blog/reasoning-models-vs-frontier-models-in-offensive-security-benchmarking.html)
+- [Rescuing Abandoned IoT: The JoeBro Sobro Smart Table Controller](https://nextgenredteam.com/blog/rescuing-abandoned-iot-joebro-sobro.html)
+- [Demystifying Detection: Emulating Windows Event ID 4625 & SSH Login Failures](https://nextgenredteam.com/blog/emulating-windows-linux-logon-failures.html)
+- [Building a Private AI Research Lab: Zero-Telemetry Search and LLM Routing with SearXNG & LiteLLM](https://nextgenredteam.com/blog/building-private-ai-research-lab-searxng-litellm.html)
+
+## Site Sections
+- [Home & Bio](https://theblindhacker.com/): Overview of Joe Brinkley's career, offensive security research, and featured Threat Lab blog posts.
+- [Profiles, Press & Media](https://theblindhacker.com/profiles): Complete archive of press commentary in The Register, CSO Online, DEVOPSdigest, SC Media, Help Net Security, Cybernews, The CyberWire Daily Briefing, and ISC2 Spotlight keynotes.
+- [Projects & Open-Source Tooling](https://theblindhacker.com/projects): NextGenRedTeam (NGRT), JoeBro Controller for Sobro Smart Coffee Tables, NextGenRedPVE & Swarm-AI, Detection Emulators, and Dead Pixel Sec.
+- [Hacking While Blind CLI Guide](https://theblindhacker.com/hackingwhileblind): Screen-reader-friendly Linux CLI methodology for blind and visually impaired ethical hackers using Nmap, Metasploit, Hydra, Sqlmap, grep, and less.
+
+
+---
+
+# Complete Page Corpus — TheBlindHacker.com
+
+## 1. Home & Biography (https://theblindhacker.com/)
+---
+title: "The Blind Hacker (Joe Brinkley) | Offensive Security Research, Red Team & AI Lab"
+description: "Official home of Joe Brinkley (The Blind Hacker / Blind Hacker), Director of Offensive Security Research & Community at Cobalt, Founder of NextGenRedTeam (NGRT), and creator of the Hacking While Blind & Dead Pixel Sec communities."
+keywords: "The Blind Hacker, Blind Hacker, Blind Hakcer, TheBlindHacker, Blind Ethical Hacker, Hacking While Blind, Joe Brinkley, Joseph Brinkley, Joe B. The Blind Hacker, Cobalt, NextGenRedTeam, NGRT, Dead Pixel Sec, DeadPixelSec, Offensive Security, Penetration Testing, Red Team, Purple Team"
+layout: home
+permalink: /
+---
+
+# The Blind Hacker
+
+## Bio  
+<br />  
+The Blind Hacker (Joe Brinkley) is an offensive security researcher, mentor, speaker, and former Director of Red Team, currently serving as Director of Offensive Security Research & Community at Cobalt. He is also the founder of **[NextGenRedTeam (NGRT)](https://nextgenredteam.com)**, an independent research lab established in 2020 that went public with its [Threat Lab Research Blog](https://nextgenredteam.com/blog/index.html), offensive playbooks, and hardware rescues.
+
+He believes deeply that mentoring others in the cybersecurity community through live streams, workshops, resume reviews, and mock interviews is vital. Through initiatives like the **[Dead Pixel Sec](https://deadpixelsec.com)** community ([discord.gg/deadpixelsec](https://discord.gg/deadpixelsec)) and Mentor Village, he helps aspiring practitioners break into offensive security, refine their methodology, and secure high-impact roles.
+
+Despite being completely blind, he constantly pushes technical boundaries, reverse-engineers legacy IoT hardware, builds agentic threat emulation labs, and advocates for accessibility in tech. He is a frequent speaker at events such as DerbyCon, GRIMMCon, BSides, Hack Space Con, and ISC2 webcasts, presenting on topics ranging from adversary emulation and threat telemetry to accessibility and soft skills for security engineers.
+
+## Connect & Explore Projects
+
+<div class="media-grid" style="grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); margin-top: 20px; margin-bottom: 40px;">
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg> LinkedIn</h3>
+    <p>Director of Offensive Security Research &amp; Community</p>
+    <a href="https://www.linkedin.com/in/brinkleyjoseph/" class="media-link" target="_blank" rel="noopener">in/brinkleyjoseph</a>
+  </div>
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> X (Twitter)</h3>
+    <p>Offensive Security &amp; Research Updates</p>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
+      <a href="https://x.com/TheBlindHacker" class="media-link" target="_blank" rel="noopener">@TheBlindHacker</a>
+      <a href="https://x.com/NextGenRedTeam" class="media-link" target="_blank" rel="noopener">@NextGenRedTeam</a>
+    </div>
+  </div>
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg> Dead Pixel Sec</h3>
+    <p>Community Website &amp; Discord Server</p>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
+      <a href="https://deadpixelsec.com" class="media-link" target="_blank" rel="noopener">Visit DeadPixelSec.com</a>
+      <a href="https://discord.gg/deadpixelsec" class="media-link" target="_blank" rel="noopener">discord.gg/deadpixelsec</a>
+    </div>
+  </div>
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;">âš”ï¸ NextGenRedTeam</h3>
+    <p>Independent Threat Emulation &amp; AI Lab</p>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
+      <a href="https://nextgenredteam.com" class="media-link" target="_blank" rel="noopener">NextGenRedTeam.com</a>
+      <a href="https://nextgenredteam.com/blog/index.html" class="media-link" target="_blank" rel="noopener">Read Threat Lab Blog</a>
+    </div>
+  </div>
+</div>
+
+## Featured Threat Lab Research &amp; Blog (`NextGenRedTeam.com/blog`)
+
+Read deep technical writeups by **Joe B. The Blind Hacker** covering local LLM orchestration, NPU silicon reverse engineering, IoT hardware rescues, and purple team telemetry:
+
+<div class="media-grid" style="margin-top: 20px; margin-bottom: 40px;">
+  <div class="media-card">
+    <span class="media-tag">Edge AI CVE Research</span>
+    <h3>Hunting Edge AI CVEs: From Demo Code to DMA Memory Corruption</h3>
+    <p>Inside our hardware lab: auditing AXERA-TECH's AX-LLM C++ NPU runtime on a Radxa AI Core AX-M1 at 500 WPM to uncover seven memory corruption and command injection flaws.</p>
+    <a href="https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html" class="media-link" target="_blank" rel="noopener">Read CVE Walkthrough on NextGenRedTeam</a>
+  </div>
+  <div class="media-card">
+    <span class="media-tag">Accessible AI Architecture</span>
+    <h3>Why I Use AI to Build Accessible CLIs and Progressive Web Apps</h3>
+    <p>Why modern web GUIs fail blind security engineers, and how we use AI as a zero-visual-bias accessibility compiler to architect WCAG AAA PWAs and POSIX CLIs.</p>
+    <a href="https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html" class="media-link" target="_blank" rel="noopener">Read Blueprint on NextGenRedTeam</a>
+  </div>
+  <div class="media-card">
+    <span class="media-tag">AI &amp; Hardware Benchmarks</span>
+    <h3>Strata on the ZimaCube Pro: Why Q6 &amp; 6 Cores Beat Q8 &amp; Dense Models</h3>
+    <p>A 9-model offensive security benchmark shootout testing Mixture-of-Experts (MoE) vs. dense LLM architectures and CPU thread scaling for autonomous red team orchestration.</p>
+    <a href="https://nextgenredteam.com/blog/strata-benchmarks-zimacube-pro.html" class="media-link" target="_blank" rel="noopener">Read Benchmark on NextGenRedTeam</a>
+  </div>
+  <div class="media-card">
+    <span class="media-tag">500-WPM CLI Methodology</span>
+    <h3>Hacking by Ear at 500 WPM: Screen Readers vs. Visual IDEs</h3>
+    <p>How combining full-time screen magnification with 550-WPM speech synthesizers and AST CLI filters turns non-visual code auditing into an asymmetric offensive advantage.</p>
+    <a href="https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html" class="media-link" target="_blank" rel="noopener">Read 500-WPM Playbook on NextGenRedTeam</a>
+  </div>
+  <div class="media-card">
+    <span class="media-tag">NPU Silicon Engineering</span>
+    <h3>Conquering the Silicon: Zero-Copy &amp; Edge NPU LLM Deployment</h3>
+    <p>Four-part deep dive into taming the Axera AX8850 24 TOPS PCIe NPU inside Proxmox LXC containers for low-power, high-speed local threat emulation.</p>
+    <a href="https://nextgenredteam.com/blog/ultimate-guide-zero-copy-ax8850.html" class="media-link" target="_blank" rel="noopener">Read NPU Guide on NextGenRedTeam</a>
+  </div>
+  <div class="media-card">
+    <span class="media-tag">Full Research Archive</span>
+    <h3>Explore All NextGenRedTeam Threat Lab Articles</h3>
+    <p>Browse the complete index of 20+ technical posts on Proxmox AI labs, SearXNG/LiteLLM gateways, IoT hardware rescues, MoE tuning, and collaborative defense.</p>
+    <a href="https://nextgenredteam.com/blog/index.html" class="media-link" target="_blank" rel="noopener">Open NextGenRedTeam Blog &rarr;</a>
+  </div>
+</div>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E4MMNCGRR6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E4MMNCGRR6');
+</script>
+
+
+
+---
+
+## 2. Projects & Threat Lab Initiatives (https://theblindhacker.com/projects)
+---
+title: "Projects & Threat Lab | The Blind Hacker (Joe Brinkley)"
+description: "Explore open-source offensive security tools, Threat Lab research blog posts at NextGenRedTeam.com, the JoeBro Sobro hardware rescue PWA, and the Dead Pixel Sec community by Joe Brinkley (The Blind Hacker)."
+keywords: "The Blind Hacker Projects, Blind Hacker, Blind Hakcer, Joe Brinkley, NextGenRedTeam, NGRT Blog, JoeBro Controller, Sobro Smart Table Rescue, Dead Pixel Sec, EventID4625, Threat Emulation"
+layout: home
+permalink: projects
+published: true
+---
+
+# The Blind Hacker
+
+## Featured Projects & Research Initiatives
+
+<div class="media-grid">
+
+  <div class="media-card">
+    <span class="media-tag">Research Lab (Est. 2020)</span>
+    <h3>NextGenRedTeam (NGRT) &amp; Threat Lab Blog</h3>
+    <p>Independent threat emulation research lab specializing in purple teaming, detection validation, local AI/NPU benchmarks, and open-source offensive tooling.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://nextgenredteam.com" class="media-link" target="_blank" rel="noopener">Visit NextGenRedTeam.com</a>
+      <a href="https://nextgenredteam.com/blog/index.html" class="media-link" target="_blank" rel="noopener">Read Threat Lab Blog</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Offensive AI Benchmarking</span>
+    <h3>Strata &amp; Local LLM Shootouts</h3>
+    <p>Comprehensive offensive security benchmarking across Mixture-of-Experts (MoE) and dense LLM architectures on ZimaCube Pro and RTX nodes, evaluating exploit reasoning, recon parsing, and CPU thread scaling.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://nextgenredteam.com/blog/strata-benchmarks-zimacube-pro.html" class="media-link" target="_blank" rel="noopener">Read Strata Benchmark</a>
+      <a href="https://nextgenredteam.com/blog/reasoning-models-vs-frontier-models-in-offensive-security-benchmarking.html" class="media-link" target="_blank" rel="noopener">Reasoning vs. Frontier Models</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Edge NPU Silicon Research</span>
+    <h3>Axera AX8850 Zero-Copy NPU Engine</h3>
+    <p>Virtualizing a 24 TOPS PCIe edge NPU inside Proxmox VE LXC containers, eliminating CMM memory-copy bottlenecks, and auditing vendor C/C++ runtime SDKs for DMA and memory corruption flaws.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html" class="media-link" target="_blank" rel="noopener">Hunting Edge AI CVEs (Lab Deep Dive)</a>
+      <a href="https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter" class="media-link" target="_blank" rel="noopener">Dissecting AX-LLM CVEs (Cobalt)</a>
+      <a href="https://nextgenredteam.com/blog/ultimate-guide-zero-copy-ax8850.html" class="media-link" target="_blank" rel="noopener">Read Zero-Copy NPU Guide</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Hardware Rescue</span>
+    <h3>JoeBro Controller</h3>
+    <p>An open-source, zero-backend Progressive Web App (PWA) designed to restore full control of Sobro Smart Coffee Tables by bypassing broken vendor mobile apps via direct Ayla Cloud API queries.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://nextgenredteam.com/tools/joebro/index.html" class="media-link" target="_blank" rel="noopener">Launch JoeBro PWA</a>
+      <a href="https://nextgenredteam.com/blog/rescuing-abandoned-iot-joebro-sobro.html" class="media-link" target="_blank" rel="noopener">Read IoT Rescue Writeup</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Threat Emulation &amp; Private AI Lab</span>
+    <h3>NextGenRedPVE &amp; Swarm-AI</h3>
+    <p>A local threat emulation architecture running custom Proxmox VE nodes with local LLMs (Ollama/vLLM), SearXNG/LiteLLM gateways, and distributed agentic orchestrators for continuous security testing.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://nextgenredteam.com/blog/benchmarking-nextgenredpve.html" class="media-link" target="_blank" rel="noopener">Read Benchmark</a>
+      <a href="https://nextgenredteam.com/blog/building-private-ai-research-lab-searxng-litellm.html" class="media-link" target="_blank" rel="noopener">Private AI Lab Guide</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Open-Source Tooling</span>
+    <h3>Detection Emulators</h3>
+    <p>Multi-language threat emulation suites (EventID4625 &amp; LinuxLoginFailure) targeting Windows Security Event logs (Event ID 4625) and Linux SSH authentication telemetry.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://github.com/nextgenredteam/nextgenredteam.github.io/tree/main/tools" class="media-link" target="_blank" rel="noopener">View Repositories</a>
+      <a href="https://nextgenredteam.com/blog/emulating-windows-linux-logon-failures.html" class="media-link" target="_blank" rel="noopener">Read Telemetry Playbook</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Accessibility Engineering</span>
+    <h3>Hacking by Ear at 500 WPM &amp; Accessible AI Tooling</h3>
+    <p>Screen-reader-first Linux CLI offensive methodology and AI-compiled accessible Progressive Web Apps (PWAs) demonstrating how blind and visually impaired operators parse telemetry and build tooling at 500+ WPM.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="/hackingwhileblind" class="media-link">Hacking While Blind CLI Guide</a>
+      <a href="https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html" class="media-link" target="_blank" rel="noopener">Read 500-WPM Article</a>
+      <a href="https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html" class="media-link" target="_blank" rel="noopener">AI Accessible CLIs &amp; PWAs</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Community</span>
+    <h3>Dead Pixel Sec</h3>
+    <p>A thriving cybersecurity community providing collaborative research space, CTF participation, technical mentorship, and career navigation for defenders and operators.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://deadpixelsec.com" class="media-link" target="_blank" rel="noopener">Visit DeadPixelSec.com</a>
+      <a href="https://discord.gg/deadpixelsec" class="media-link" target="_blank" rel="noopener">Join Discord (discord.gg/deadpixelsec)</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Mentorship &amp; Workplace</span>
+    <h3>Career Coaching &amp; Sponsorship</h3>
+    <p>Free workplace development services including resume reviews, mock interviews, job coaching, personal letters of recommendation, and conference sponsorship initiatives.</p>
+    <a href="https://www.linkedin.com/in/brinkleyjoseph/" class="media-link" target="_blank" rel="noopener">Connect on LinkedIn</a>
+  </div>
+
+</div>
+
+
+---
+
+## 3. Profiles, Press, Keynotes & Media Archive (https://theblindhacker.com/profiles)
+---
+title: "Profiles, Press & Media | The Blind Hacker (Joe Brinkley)"
+description: "Media appearances, press quotes, keynotes, podcasts, and social profiles for Joe Brinkley (The Blind Hacker), Director of Offensive Security Research & Community at Cobalt and Founder of NextGenRedTeam."
+keywords: "Joe Brinkley, Joseph Brinkley, The Blind Hacker, Blind Hacker, Blind Hakcer, Cobalt Director of Offensive Security Research, Head of Pentesting, CSO Online, The Register, Dark Reading, DEVOPSdigest, CyberWire, NextGenRedTeam, Dead Pixel Sec"
+layout: home
+permalink: profiles
+---
+
+# The Blind Hacker Profiles
+
+Find me on these platforms and labs:
+
+<div class="media-grid" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); margin-bottom: 50px;">
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;">âš”ï¸ NextGenRedTeam</h3>
+    <p>Threat Research Lab &amp; Blog (Est. 2020)</p>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
+      <a href="https://nextgenredteam.com" class="media-link" target="_blank" rel="noopener">Visit NextGenRedTeam.com</a>
+      <a href="https://nextgenredteam.com/blog/index.html" class="media-link" target="_blank" rel="noopener">Read Threat Lab Blog</a>
+      <a href="https://x.com/NextGenRedTeam" class="media-link" target="_blank" rel="noopener">Follow @NextGenRedTeam</a>
+    </div>
+  </div>
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg> LinkedIn</h3>
+    <p>Director of Offensive Security Research &amp; Community</p>
+    <a href="https://www.linkedin.com/in/brinkleyjoseph/" class="media-link" target="_blank" rel="noopener">Connect on LinkedIn</a>
+  </div>
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> X (Twitter)</h3>
+    <p>Updates &amp; Offensive Security Thoughts</p>
+    <a href="https://x.com/TheBlindHacker" class="media-link" target="_blank" rel="noopener">Follow @TheBlindHacker</a>
+  </div>
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg> Dead Pixel Sec</h3>
+    <p>Cybersecurity Community &amp; Mentorship</p>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
+      <a href="https://deadpixelsec.com" class="media-link" target="_blank" rel="noopener">Visit DeadPixelSec.com</a>
+      <a href="https://discord.gg/deadpixelsec" class="media-link" target="_blank" rel="noopener">Join discord.gg/deadpixelsec</a>
+    </div>
+  </div>
+  <div class="media-card">
+    <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg> GitHub</h3>
+    <p>Open-Source Tooling &amp; Rescues</p>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
+      <a href="https://github.com/TheBlindHacker" class="media-link" target="_blank" rel="noopener">github.com/TheBlindHacker</a>
+      <a href="https://github.com/nextgenredteam" class="media-link" target="_blank" rel="noopener">github.com/nextgenredteam</a>
+    </div>
+  </div>
+  <div class="media-card">
+    <h3>Mastodon</h3>
+    <p>Infosec Exchange</p>
+    <a href="https://infosec.exchange/@TheBlindHacker" class="media-link" target="_blank" rel="noopener">Follow on Mastodon</a>
+  </div>
+  <div class="media-card">
+    <h3>Twitch</h3>
+    <p>Live Hacking Streams</p>
+    <a href="https://www.twitch.tv/theblindhacker" class="media-link" target="_blank" rel="noopener">Watch Live</a>
+  </div>
+  <div class="media-card">
+    <h3>Cobalt Author Profile</h3>
+    <p>Published Offensive Security Research</p>
+    <a href="https://www.cobalt.io/blog/author/joe-brinkley" class="media-link" target="_blank" rel="noopener">Read Cobalt Articles</a>
+  </div>
+</div>
+
+## Featured Webcasts & Keynotes
+
+<div class="media-grid">
+
+  <div class="media-card">
+    <span class="media-tag">Featured Speaker</span>
+    <h3>Secure Carolinas 2026: Vibe Hacking &amp; Automated Attack Surfaces</h3>
+    <p>AegisX Conference (August 2026). Featured speaker session covering "Vibe Hacking: How I Built a World-Class Hacking Tool in a Weekend" alongside integrating high-density edge AI hardware with agentic workflows for Continuous Penetration Testing (CPT).</p>
+    <a href="https://aegisx.events/" class="media-link" target="_blank" rel="noopener">View AegisX Conference</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">ISC2 Spotlight</span>
+    <h3>Inside the 2.7x Problem: Vulnerability Discovery Is No Longer the Bottleneck</h3>
+    <p>ISC2 Spotlight: Artificial Intelligence (2026). Analyzing data from thousands of LLM pentests showing AI applications generate critical flaws at 2.7x the rate of traditional assets while automated agents achieve access in under 7 minutes.</p>
+    <a href="https://events.isc2.org/b/sp/joe-brinkley-6146" class="media-link" target="_blank" rel="noopener">View ISC2 Speaker Profile</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">UITS Webcast</span>
+    <h3>UITS Security & Accessibility Series</h3>
+    <p>Featured presentation on offensive security methodology and accessible technical engineering.</p>
+    <span class="media-link">UITS Archives</span>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Conference Talk</span>
+    <h3>Stable 21: Hacking While Blind</h3>
+    <p>DerbyCon 2019 / Adrian Crenshaw. A deep dive into hacking with visual impairments.</p>
+    <a href="https://www.youtube.com/watch?v=DfL6n4xjH4w" class="media-link" target="_blank" rel="noopener">Watch Video</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Conference Talk</span>
+    <h3>CyberPhunk2020: Kick off your Cyber Journey</h3>
+    <p>GRIMMCon. Tips and advice for starting a career in cybersecurity.</p>
+    <a href="https://www.youtube.com/watch?v=RyGKJ12iHya" class="media-link" target="_blank" rel="noopener">Watch Video</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Conference Talk</span>
+    <h3>Soft Skills for Hackers</h3>
+    <p>BSidesDE. Hacking your way into the CyberSec industry.</p>
+    <a href="https://www.youtube.com/watch?v=6UPT8OIHM2E" class="media-link" target="_blank" rel="noopener">Watch Video</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Appearance</span>
+    <h3>Hack Space Con</h3>
+    <p>Speaker and Mentor. Discussed in The Phillip Wylie Show.</p>
+    <a href="https://hackspacecon.com/" class="media-link" target="_blank" rel="noopener">Visit Conference</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Appearance</span>
+    <h3>Hack Red Con</h3>
+    <p>Speaker on Branding. Discussed in The Phillip Wylie Show.</p>
+    <a href="https://hackredcon.com/" class="media-link" target="_blank" rel="noopener">Visit Conference</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Panelist</span>
+    <h3>Blue Team Village</h3>
+    <p>Panelist at Blue Team Village events.</p>
+    <a href="https://blueteamvillage.org/" class="media-link" target="_blank" rel="noopener">Visit BTV</a>
+  </div>
+
+</div>
+
+## Articles & Industry Publications
+
+<div class="media-grid">
+
+  <div class="media-card">
+    <span class="media-tag">Cobalt Research // CVE Advisory</span>
+    <h3>Dissecting the AX-LLM CVEs: Why Edge AI Memory and Execution Boundaries Matter</h3>
+    <p>â€œWhen vendors port cloud LLM runtimes directly to bare-metal NPU silicon without memory isolation, unauthenticated HTTP inputs map straight to Contiguous Media Memory (CMM) DMA buffers and root shell execution.â€</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter" class="media-link" target="_blank" rel="noopener">Read CVE Analysis on Cobalt</a>
+      <a href="https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html" class="media-link" target="_blank" rel="noopener">Read Hardware Lab Deep Dive (NGRT)</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">DEVOPSdigest Feature</span>
+    <h3>Why Your Annual Pentest Is a Liability: Closing the Exposure Window</h3>
+    <p>â€œOrganizations treat the annual pentest like a fire drillâ€”a scheduled compliance checkbox where a static report sits on a shelf for 12 months while engineering ships dozens of microservices, cloud drift, and unreviewed API endpoints into production.â€</p>
+    <a href="https://www.devopsdigest.com/why-your-annual-pentest-liability-closing-exposure-window" class="media-link" target="_blank" rel="noopener">Read Article on DEVOPSdigest</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">DEVOPSdigest Vendor Forum</span>
+    <h3>Joe Brinkley Joins the DEVOPSdigest Vendor Forum</h3>
+    <p>Contributing industry thought leadership on modern Pentesting as a Service (PTaaS), Continuous Threat Exposure Management (CTEM), and human-led AI security testing.</p>
+    <a href="https://www.devopsdigest.com/cobalt-director-offensive-security-research-community-cobalt-has-joined-vendor-forum" class="media-link" target="_blank" rel="noopener">Read Announcement on DEVOPSdigest</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">The Register</span>
+    <h3>CISO Thought He Had a 'r3@lg00dp@$$w0rd' but Forgot to Patch</h3>
+    <p>â€œI shredded them. They were not in a very good security posture... They spent probably a half a million dollars to get patching and get through these things because they were trying to go through a merger and acquisition.â€</p>
+    <a href="https://www.theregister.com/security/2026/10/01/ciso-thought-he-had-a-r3lg00dpw0rd-but-forgot-to-patch/5300314" class="media-link" target="_blank" rel="noopener">Read Feature on The Register</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online</span>
+    <h3>EU Cyber Resilience Act 'Completely Kills' Manual Vulnerability Triage</h3>
+    <p>â€œThe 24-hour reporting clock completely kills manual triage. Taking three days to figure out if you're exposed to a zero-day is a luxury nobody has anymore... This takes vulnerability reporting right out of the legal department and drops it directly into live security ops.â€</p>
+    <a href="https://www.csoonline.com/article/4229824/eu-cyber-resilience-act-completely-kills-manual-vulnerability-triage.html" class="media-link" target="_blank" rel="noopener">Read Feature on CSO Online</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">LavX News</span>
+    <h3>Law Firm CISO's 'r3@lg00dp@$w0rd' Exposed After BlueKeep Patch Failure</h3>
+    <p>â€œPenetration tester Joe Brinkley exploited BlueKeep during an M&A assessment to access systems across 2,500 workstations, highlighting how unpatched legacy infrastructure completely voids defensive investments.â€</p>
+    <a href="https://news.lavx.hu/article/law-firm-ciso-s-r3-lg00dp-w0rd-exposed-after-bluekeep-patch-failure" class="media-link" target="_blank" rel="noopener">Read Feature on LavX News</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online</span>
+    <h3>Stolen AI Credentials Feed Growing LLM Proxy Economy</h3>
+    <p>â€œInference endpoints are live, production attack surfaces... If providers want to protect their models from extraction, they need to defend them at the application layer with real behavioral telemetry, sybil defenses, and output controls...â€</p>
+    <a href="https://www.csoonline.com/article/4227199/stolen-ai-credentials-feed-growing-llm-proxy-economy.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">The Register</span>
+    <h3>Government Contractor Exposed Path to 50M Immigration Records</h3>
+    <p>â€œIt creates a glaring issue: going from a low-level datacenter to a top-secret classified environment. Opening that firewall rule allowed anyone on the low-level VPN access into production.â€</p>
+    <a href="https://www.theregister.com/security/2026/09/24/government-contractor-exposed-path-to-immigration-records/5298689" class="media-link" target="_blank" rel="noopener">Read Feature on The Register</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online / CIO.com</span>
+    <h3>Security Leadersâ€™ Rogue AI Confidence Could Actually Be Disastrous</h3>
+    <p>â€œTracing agent impact fast is brutal. These systems do not run on fixed code paths... Traditional logs completely miss the full execution chain.â€</p>
+    <a href="https://www.csoonline.com/article/4198038/security-leaders-confident-but-cooked-when-it-comes-to-rogue-ai-agents.html" class="media-link" target="_blank" rel="noopener">Read Article on CSO</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Help Net Security</span>
+    <h3>Companies Keep Bolting AI Onto Products &amp; Security Bill Is Due</h3>
+    <p>â€œShadow AI operates at the application layer, completely bypassing traditional infrastructure inventory tools.â€</p>
+    <a href="https://www.helpnetsecurity.com/2026/06/29/companies-keep-bolting-ai-onto-their-products-and-the-security-bill-is-coming-due/" class="media-link" target="_blank" rel="noopener">Read Feature on Help Net Security</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">SC Media</span>
+    <h3>New Linux Privilege Escalation Flaw 'Fragnesia' Disclosed</h3>
+    <p>â€œWe're seeing a recurring pattern where attackers leverage reliable arbitrary kernel write primitives to bypass traditional hardening. When a PoC can consistently overwrite /etc/passwd or hijack su logic, it's a turnkey solution for full system compromise.â€</p>
+    <a href="https://www.scworld.com/news/new-linux-privilege-escalation-flaw-fragnesia-disclosed-poc-available" class="media-link" target="_blank" rel="noopener">Read Feature on SC Media</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Cobalt Research</span>
+    <h3>Navigating 2026â€™s Nation-State and Supply Chain Threats</h3>
+    <p>â€œInference endpoints and supply chain pipelines are expanding faster than defensive telemetry. Organizations must transition from periodic check-box testing to continuous threat exposure management.â€</p>
+    <a href="https://www.cobalt.io/blog/new-cobalt-research-navigating-2026s-nation-state-and-supply-chain-threats" class="media-link" target="_blank" rel="noopener">Read Cobalt Research Report</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Cybernews</span>
+    <h3>Discovery Is Cheap, Validation Is Expensive</h3>
+    <p>â€œDiscovery has become cheap, but validation remains incredibly expensive. Attempting to fix every flaw is counterproductiveâ€”focus on real exploit paths.â€</p>
+    <a href="https://cybernews.com/editorial-perspectives/discovery-cheap-validation-expensive-software-flaws/" class="media-link" target="_blank" rel="noopener">Read Feature on Cybernews</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online</span>
+    <h3>Bank Regulator Sounds Warning Over Cybersecurity Threat Posed by AI</h3>
+    <p>â€œThe barrier to entry for state-level cyber capabilities has now been lowered to the cost of an API key.â€</p>
+    <a href="https://www.csoonline.com/article/4185012/bank-regulator-sounds-warning-over-cybersecurity-threat-posed-by-ai-models.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">CSO Online</span>
+    <h3>Lateral Movement Risk Rises as Enterprises Emphasize Convenience</h3>
+    <p>â€œOrganizations must move beyond pure detection and prioritize deterministic containment through micro-segmentation and strict least privilege.â€</p>
+    <a href="https://www.csoonline.com/article/4195230/lateral-movement-risk-rises-as-enterprises-emphasize-convenience-over-containment.html" class="media-link" target="_blank" rel="noopener">Read Commentary on CSO</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">TMCnet / Industry Feature</span>
+    <h3>PTaaS Ranked 4x More Effective Than Bug Bounties</h3>
+    <p>Highlighting why structured, methodology-driven Pentesting as a Service (PTaaS) consistently outperforms ad-hoc crowdsourced bug bounty programs on complex business logic and chained vulnerabilities.</p>
+    <a href="https://www.tmcnet.com/usubmit/-ptaas-ranked-4x-more-effective-than-bug-bounties-/2026/03/05/10342809.htm" class="media-link" target="_blank" rel="noopener">Read Feature on TMCnet</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Cobalt Research</span>
+    <h3>The AI Pentesting Pulse: Decoding the 2.7x Risk Multiplier in LLM Deployments</h3>
+    <p>â€œAI and LLM-integrated applications produce high-risk vulnerabilities at 2.7 times the rate of traditional software assets, with two out of three critical findings remaining open.â€</p>
+    <a href="https://www.cobalt.io/blog/the-ai-pentesting-pulse-decoding-the-2.7x-risk-multiplier-in-llm-deployments" class="media-link" target="_blank" rel="noopener">Read Cobalt Research</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Business Wire / Press Release</span>
+    <h3>Cobalt Names Joseph Brinkley Head of Offensive Security Research and Community</h3>
+    <p>â€œCobalt appoints Joseph Brinkley ('The Blind Hacker') to lead its global offensive security research agenda, scale adversary emulation methodologies, and mentor the Cobalt Core.â€</p>
+    <a href="https://www.businesswire.com/news/home/20251208806173/en/Cobalt-Names-Joseph-Brinkley-Head-of-Offensive-Security-Research-and-Community" class="media-link" target="_blank" rel="noopener">Read Press Release on Business Wire</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Interview</span>
+    <h3>Interview with The Blind Hacker</h3>
+    <p>Cyber Bunee. Discussing the journey and challenges of a blind hacker.</p>
+    <a href="https://www.youtube.com/watch?v=IUTyyQD1-0g" class="media-link" target="_blank" rel="noopener">Watch Video</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Article</span>
+    <h3>DerbyCon Interview Series</h3>
+    <p>Interview by Joe Gray. "The Blind Hacker, Joe B."</p>
+    <a href="https://medium.com/@_C_3PJoe/derbycon-interview-series-the-blind-hacker-joe-b-453b7518fb7d" class="media-link" target="_blank" rel="noopener">Read Article</a>
+  </div>
+
+</div>
+
+## Podcasts
+
+<div class="media-grid">
+
+  <div class="media-card">
+    <span class="media-tag">Podcast / N2K Networks</span>
+    <h3>The CyberWire Daily Briefing #2650</h3>
+    <p>October 5, 2026 (Hosted by Dave Bittner). Featured segment covering Joe Brinkley's M&amp;A penetration testing findings, BlueKeep exploitation across 2,500 endpoints, and CISO credential exposure.</p>
+    <a href="https://thecyberwire.com/podcasts/daily-podcast/2650/transcript" class="media-link" target="_blank" rel="noopener">Read Transcript &amp; Listen</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Podcast</span>
+    <h3>Security and Compliance Weekly</h3>
+    <p>Featured guest discussing offensive security testing, compliance, and research.</p>
+    <a href="https://scweekly.com/" class="media-link" target="_blank" rel="noopener">Listen to Episode</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Podcast</span>
+    <h3>The Hacker Factory</h3>
+    <p>Phillip Wylie Show: Overcoming Obstacles to Become a Pentester.</p>
+    <a href="https://www.youtube.com/watch?v=cMoXmcz8CVb" class="media-link" target="_blank" rel="noopener">Watch Video</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Podcast</span>
+    <h3>The Phillip Wylie Show</h3>
+    <p>Joe Brinkley aka The Blind Hacker: Origin Story & Advice.</p>
+    <a href="https://www.youtube.com/watch?v=GmjRlfs7n5T" class="media-link" target="_blank" rel="noopener">Watch Video</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Podcast</span>
+    <h3>Simply Offensive</h3>
+    <p>Episode featuring Joe Brinkley discussing offensive security and red teaming.</p>
+    <a href="https://www.youtube.com/watch?v=GmjRlfs7n5T" class="media-link" target="_blank" rel="noopener">Watch Video</a>
+  </div>
+  
+  <div class="media-card">
+    <span class="media-tag">Podcast</span>
+    <h3>The Mindful Business Security Show</h3>
+    <p>Discussing security strategy, leadership, and small business security.</p>
+    <a href="https://mindfulsmbshow.com/" class="media-link" target="_blank" rel="noopener">Listen</a>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Podcast</span>
+    <h3>Detections Podcast</h3>
+    <p>Episode featuring Joe Brinkley discussing telemetry and detection engineering.</p>
+    <span class="media-link">Link Pending</span>
+  </div>
+
+  <div class="media-card">
+    <span class="media-tag">Podcast</span>
+    <h3>Positively Blue Team</h3>
+    <p>Blue Team and Purple Team collaborative defense discussions.</p>
+    <span class="media-link">Link Pending</span>
+  </div>
+
+</div>
+
+
+---
+
+## 4. Hacking While Blind: Screen Reader CLI Survival Guide (https://theblindhacker.com/hackingwhileblind)
+---
+title: "Hacking While Blind | Screen Reader CLI Guide by The Blind Hacker (Joe Brinkley)"
+description: "Complete guide to Hacking While Blind by Joe Brinkley (The Blind Hacker). Learn how blind and visually impaired ethical hackers use Linux CLI, Nmap, Metasploit, grep, and screen readers (NVDA, JAWS) for offensive security."
+keywords: "Hacking While Blind, Blind Hacker, Blind Hakcer, The Blind Hacker, Blind Ethical Hacker, Screen Reader Hacking, Accessible Cybersecurity, NVDA, JAWS, Kali Linux Accessibility, Joe Brinkley, NextGenRedTeam, Dead Pixel Sec"
+layout: home
+permalink: hackingwhileblind
+---
+
+# Hacking While Blind: Empowering Blind Ethical Hackers
+
+In the ever-evolving landscape of cybersecurity, hacking stands as a critical practice in safeguarding digital assets. However, as the realm of tools expands, ensuring accessibility for all users is paramount.
+
+This resource is designed to help blind and visually impaired hackers navigate the Command-Line Interface (CLI) effectively. We focus on Windows and Linux tools that prioritize text-based output, which is the gold standard for screen reader accessibility.
+
+## The "Text-First" Mindset
+
+For blind hackers, the Command Line Interface (CLI) is king. Graphical User Interfaces (GUIs) are often cluttered and unpredictable for screen readers. The CLI offers linear, predictable text output that we can control.
+
+**Why CLI?**
+*   **Control**: You decide what to read and when.
+*   **Speed**: Text is faster to parse than complex visual layouts.
+*   **Scriptability**: You can chain commands together to automate tasks.
+
+---
+
+## Terminal Survival Guide for Screen Readers
+
+One of the biggest challenges we face is **verbosity**. Tools like Nmap or LinEnum can spit out thousands of lines of code in seconds. If your screen reader tries to read that all at once, you'll be listening for hours.
+
+Here are the essential techniques to manage output and stay efficient.
+
+### 1. Redirecting Output to Files
+Never let a long scan dump directly to your terminal. Always save it to a file. This allows you to open it later and read it line-by-line at your own pace.
+
+**The `>` Operator** (Overwrite):
+Save output to a new file.
+```bash
+nmap -sC -sV 10.10.10.10 > scan_results.txt
+```
+
+**The `>>` Operator** (Append):
+Add output to the end of an existing file.
+```bash
+echo "Starting Scan" >> scan_log.txt
+nmap 10.10.10.10 >> scan_log.txt
+```
+
+**The `tee` Command**:
+See the output on screen AND save it to a file simultaneously.
+```bash
+nmap 10.10.10.10 | tee scan_results.txt
+```
+
+### 2. Searching with Grep
+Don't read the haystack; find the needle. Use `grep` to filter huge text files for exactly what you need.
+
+**Find Open Ports**:
+Instead of reading 1000 lines of "closed" ports, just find the open ones.
+```bash
+cat scan_results.txt | grep "open"
+```
+
+**Case Insensitive Search**:
+Use `-i` to find text regardless of capitalization.
+```bash
+cat website_source.html | grep -i "password"
+```
+
+**Context**:
+Use `-C` to see lines *around* your match (context is key!).
+```bash
+# Show 2 lines before and after the match
+grep -C 2 "error" app_log.txt
+```
+
+### 3. Reading Files Comfortably
+Don't use `cat` on long files. It just dumps everything at once.
+
+**Use `less`**:
+`less` allows you to scroll through a file page by page.
+*   **Spacebar**: Next page.
+*   **b**: Previous page.
+*   **q**: Quit.
+*   **/**: Search inside the file (type `/searchterm` and hit Enter).
+
+```bash
+less scan_results.txt
+```
+
+---
+
+## Learning New Tools (RTFM)
+
+In Kali Linux, learning how to find information is more important than memorizing every command. Here is how to access documentation accessibly.
+
+### 1. The Man Pages
+The manual (man) pages are the built-in documentation for Linux commands.
+```bash
+man nmap
+```
+*   **Navigation**: It uses the same keys as `less` (Space to scroll, `/` to search, `q` to quit).
+*   **Tip**: Search for "EXAMPLE" inside the man page (`/EXAMPLE`) to jump straight to how to use the tool.
+
+### 2. Help Flags
+Most CLI tools have a built-in help argument.
+```bash
+nmap -h
+# or
+nmap --help
+```
+**Pro Tip**: This output can be long. Pipe it to `less` to read it comfortably!
+```bash
+nmap --help | less
+```
+
+### 3. Documentation Directories
+Sometimes tools come with comprehensive READMEs or examples tucked away in the file system.
+*   Check `/usr/share/doc/` for detailed documentation.
+*   Navigate to the tool's directory (e.g., `/usr/share/doc/metasploit-framework/`).
+
+---
+
+## Accessible Windows & Linux Tools
+
+We recommend these tools because they have robust CLI support and work well with screen readers (NVDA, JAWS, Narrator).
+
+### Nmap (Network Mapper)
+*   **Description**: The industry standard for network discovery and auditing.
+*   **Accessibility**: Pure CLI. Output is text-based and easy to redirect.
+*   **Basic Usage**:
+    ```bash
+    # Scan a single IP
+    nmap 192.168.1.10
+    
+    # Save results to a text file (Essential for screen readers!)
+    nmap -oN results.txt 192.168.1.10
+    ```
+
+### Metasploit Framework
+*   **Description**: A massive platform for developing, testing, and executing exploits.
+*   **Accessibility**: The `msfconsole` is text-based.
+*   **Tip**: Use `spool log.txt` to save your session to a file.
+*   **Basic Usage**:
+    ```bash
+    # Start the console
+    msfconsole
+    
+    # Search for an exploit
+    search eternalblue
+    
+    # Select an exploit
+    use exploit/windows/smb/ms17_010_eternalblue
+    
+    # Show options
+    show options
+    ```
+
+### Hydra
+*   **Description**: Fast and flexible password-cracking tool.
+*   **Accessibility**: command-line arguments allow you to specify everything upfront.
+*   **Basic Usage**:
+    ```bash
+    # Brute force SSH with a username and password list
+    hydra -l root -P /usr/share/wordlists/rockyou.txt 192.168.1.10 ssh
+    ```
+
+### Sqlmap
+*   **Description**: Automates detection and exploitation of SQL injection.
+*   **Accessibility**: Interactive CLI questions are usually Yes/No and screen-reader friendly.
+*   **Tip**: Use `--batch` to accept default answers automatically.
+*   **Basic Usage**:
+    ```bash
+    # Test a URL for SQL Injection
+    sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" --batch
+    ```
+
+---
+
+## Community & Resources
+
+**Don't Feel Stupid Asking Questions.**
+It is better to say "I don't know" than to stay stuck. Passion for hacking comes from curiosity.
+
+*   **Engage**: Join communities like [DeadPixelSec.com](https://deadpixelsec.com) and our Discord server at [discord.gg/deadpixelsec](https://discord.gg/deadpixelsec) where we discuss accessibility in InfoSec.
+*   **Read the 500-WPM & Accessible AI Blueprints**: Dive into [Hacking by Ear at 500 WPM](https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html), [Why I Use AI to Build Accessible CLIs and Progressive Web Apps](https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html), and [Hunting Edge AI CVEs at 500 WPM](https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html).
+*   **Read Our Threat Lab Research**: Dive into our technical offensive security and hardware engineering posts on the [NextGenRedTeam Threat Lab Blog](https://nextgenredteam.com/blog/index.html) and [NextGenRedTeam.com](https://nextgenredteam.com).
+*   **Connect with The Blind Hacker**: Follow Joe Brinkley on [LinkedIn (`in/brinkleyjoseph`)](https://www.linkedin.com/in/brinkleyjoseph/), [X (`@TheBlindHacker`)](https://x.com/TheBlindHacker), and [X (`@NextGenRedTeam`)](https://x.com/NextGenRedTeam).
+*   **Learn**: Familiarize yourself with basic Linux commands (`cd`, `ls`, `cat`, `grep`). The terminal is your home.
+*   **Share**: If you find a new way to make a tool talk, share it!
+
+### Conclusion
+Inclusivity lies at the heart of technological innovation. By embracing CLI tools and mastering terminal manipulation, visually impaired individuals can hack with the same speed and lethality as anyone else.
+
+Let's continue to build a more accessible future for cybersecurity.
+
+
+
+---
+
+## 5. NextGenRedTeam (NGRT) Threat Lab Index (https://nextgenredteam.com/llms.txt)
+# NextGenRedTeam (NGRT) Threat Lab & Research Blog
+
+> High-fidelity threat emulation research, hardware reverse engineering, NPU silicon engineering, 500-WPM accessible CLI/PWA tooling, and offensive AI orchestration founded by Joe Brinkley (The Blind Hacker).
+
+## Founder & Principal Researcher: Joe Brinkley (The Blind Hacker)
+- **Aliases**: The Blind Hacker, Blind Hacker, Blind Hakcer, Joe B. The Blind Hacker, Joseph Brinkley, Blind Ethical Hacker
+- **Role**: Director of Offensive Security Research & Community at Cobalt; Founder of NextGenRedTeam (NGRT) & Dead Pixel Sec
+- **Portfolio & Media Hub**: https://theblindhacker.com
+- **The Blind Hacker Projects**: https://theblindhacker.com/projects
+- **Press, Keynotes & Media Archive**: https://theblindhacker.com/profiles
+- **Hacking While Blind CLI Guide**: https://theblindhacker.com/hackingwhileblind
+- **TheBlindHacker AI Context**: https://theblindhacker.com/llms.txt & https://theblindhacker.com/llms-full.txt
+- **Full NGRT Corpus for AI Ingestion**: https://nextgenredteam.com/llms-full.txt
+- **XML Sitemap**: https://nextgenredteam.com/sitemap.xml
+- **LinkedIn**: https://www.linkedin.com/in/brinkleyjoseph/
+- **X (Twitter)**: https://x.com/TheBlindHacker & https://x.com/NextGenRedTeam
+- **Community & Mentorship**: https://deadpixelsec.com & https://discord.gg/deadpixelsec
+- **Cobalt Author Profile**: https://www.cobalt.io/blog/author/joe-brinkley
+- **GitHub Organizations**: https://github.com/nextgenredteam & https://github.com/TheBlindHacker
+
+## Coordinated Vulnerability Disclosures (Edge AI / NPU Silicon)
+- **CVE-2026-30992 (GHSA-cfch-87gh-88c5)**: Out-of-Bounds Read + Integer Truncation in Prompt Prefill & CMM DMA Mask in AXERA-TECH AX-LLM (`src/runner/LLM.hpp`, CVSS 7.5 High)
+- **CVE-2026-30993 (GHSA-g4jf-32v4-cjc3)**: Stack-Based Buffer Overflow in Layer Filename Formatting in AXERA-TECH AX-LLM (`src/runner/LLM.hpp`, CVSS 7.8 High)
+- **CVE-2026-31026 (GHSA-4p8c-724v-h9ph)**: Heap Out-of-Bounds Write in Multimodal RoPE Position Indexing in AXERA-TECH AX-LLM (`src/runner/LLM.hpp`, CVSS 8.1 High)
+- **CVE-2026-35402 (GHSA-73fh-rvv8-22c6)**: Integer Overflow in Multimodal Vision Preprocessing in AXERA-TECH AX-LLM (`src/runner/utils/image_processor.cpp`, CVSS 7.5 High)
+- **CVE-2026-35403 (GHSA-hmh6-8pj7-xwhh)**: Double-Free & Use-After-Free in CLI Argument Error Handling in AXERA-TECH AX-LLM (`src/cmdline.hpp`, CVSS 7.3 High)
+- **Enterprise Advisory (Cobalt)**: https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter
+- **Hardware Lab Reproduction Walkthrough (NGRT)**: https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html
+
+## Open-Source Tools & Hardware Rescues
+- [JoeBro Sobro Smart Table PWA Controller](https://nextgenredteam.com/tools/joebro/index.html): Zero-backend Progressive Web App restoring local and cloud control to bricked Sobro Smart Coffee Tables.
+- [EventID4625 Windows Logon Failure Emulator](https://github.com/nextgenredteam/nextgenredteam.github.io/tree/main/tools): Cross-platform Go, Python, PowerShell, and Bash adversary emulator for Windows Security Event ID 4625.
+- [LinuxLoginFailure SSH Telemetry Emulator](https://github.com/nextgenredteam/nextgenredteam.github.io/tree/main/tools): Multi-language SSH authentication failure generator for SIEM validation.
+
+## Active Research Threads (21 Published Posts)
+
+- [Hunting Edge AI CVEs: From Demo Code to DMA Memory Corruption](https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html) (2026-11-01): Inside the NextGenRedTeam hardware lab: how we wired up a Radxa AI Core AX-M1 (Axera AX8850) on NextGenPVE, audited AXERA-TECH's AX-LLM C++ NPU runtime with a screen reader at 500 WPM, and uncovered seven memory corruption and command injection flaws.
+- [Why I Use AI to Build Accessible CLIs and Progressive Web Apps: The Blind Hacker's Blueprint](https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html) (2026-10-26): Why modern web GUIs fail blind security engineers, how Progressive Web Apps (PWAs) and text-first CLIs fix accessibility, and how Joe Brinkley uses AI as an accessibility compiler to build software without sighted bias.
+- [Strata on the ZimaCube Pro: Why Q6 and 6 Cores Beat Q8 and Dense Models](https://nextgenredteam.com/blog/strata-benchmarks-zimacube-pro.html) (2026-10-19): Benchmarking the Strata MoE engine on the ZimaCube Pro with 42GB RAM: Q6 vs. Q8 math, CPU core scaling, and why 35B MoE beats 8B dense models.
+- [Hacking by Ear at 500 WPM: How Screen Readers and Custom CLI Tooling Outpace Visual IDEs in Offensive Research](https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html) (2026-10-12): Auditing code at 550 words per minute while using full-time screen zoom is an unfair offensive advantage. Here is the terminal playbook from my talk Hacking While Blind, showing how combining screen magnification and speech synthesizers beats visual IDEs.
+- [Experimental Rebuild Tuning: llama.cpp MoE Memory Gains and Dense Regressions](https://nextgenredteam.com/blog/experimental-rebuild-tuning-llama-cpp-moe-vs-dense.html) (2026-07-10): We compiled and tested a custom llama.cpp fork on our RTX node. Here is how it optimized Mixture of Experts (MoE) memory, why it fumbled dense model speeds, and why we rolled back.
+- [Building a Private AI Research Lab: Bridging LiteLLM and SearXNG on NextGenPVE](https://nextgenredteam.com/blog/building-private-ai-research-lab-searxng-litellm.html) (2026-07-09): How we containerized and bridged SearXNG and LiteLLM in LXC 205 on NextGenPVE for privacy-respecting threat intelligence gathering and local AI orchestration.
+- [Deep Benchmarks v7: Pushing NextGenPVE to the Limit](https://nextgenredteam.com/blog/deep-benchmarks-v7.html) (2026-07-03): Reviewing the latest local LLM benchmarks across NextGenPVE-RTX and the new NextGenPVE-NPU hardware.
+- [Massive Environment Overhaul: Brain-RTX Hyper-Optimization & Benchmark Results](https://nextgenredteam.com/blog/massive-environment-overhaul-brain-rtx.html) (2026-07-02): How I heavily modified the GPU daemon on my local rig to handle massive 12k+ token agentic context windows without choking.
+- [The NPU Journey Part 4: Conquering the Final Boss (Strict JSONs, CMM Boot Windows, and Gateways)](https://nextgenredteam.com/blog/npu-journey-part-4-the-final-boss.html) (2026-06-28): Resolving strict post_config type checks, handling the 65-second CMM boot window, and building a LiteLLM translation layer for unified edge NPU inference.
+- [The NPU Journey Part 3: Night Shift Compilation Breakthroughs (AppArmor, LXC Ghost Memory)](https://nextgenredteam.com/blog/npu-journey-part-3-compilation-breakthroughs.html) (2026-06-27): Resolving nested container virtualization blocks, bypassing AppArmor security confinement, and clearing ghost memory traps during our high-throughput compilation sprint on the AX8850.
+- [The NPU Journey Part 2: The True Guide to Deploying LLMs on the Axera AX8850](https://nextgenredteam.com/blog/npu-journey-part-2-deploying-llms.html) (2026-06-26): The definitive, step-by-step technical guide to native LLM deployment on the AX8850 NPU via PCIe passthrough inside an unprivileged LXC container.
+- [The NPU Journey Part 1: Taming the Axera AX8850 (And Why We Reverse-Engineered Everything for Nothing)](https://nextgenredteam.com/blog/npu-journey-part-1-taming-axera-ax8850.html) (2026-06-25): Admitting our over-engineering mistakes: how broken vendor paths and JSON parser bugs led us to reverse engineer everything for nothing, and the reality of taming the Axera AX8850 NPU.
+- [ReThink: Bypassing DKMS and Virtualizing the AX8850 NPU in NextGenPVE LXC](https://nextgenredteam.com/blog/rethinking-npu-virtualization-nextgenpve-lxc.html) (2026-06-24): How we decoupled the Axera AX8850 NPU from bare-metal, resolved NextGenPVE LXC DKMS compiler conflicts, and cleared stale CMM allocations to host localized reasoning LLMs.
+- [Ultimate Guide: Zero-Copy Inference on the AX8850 NPU](https://nextgenredteam.com/blog/ultimate-guide-zero-copy-ax8850.html) (2026-06-23): How to bypass Radxa's Python CPU bottlenecks, compile a native C++ OpenAI server, and achieve stable zero-copy inference on the AX8850 NPU.
+- [Conquering the Silicon: Building a Custom 'Ollama' Orchestrator for the AX8850 NPU (Part II)](https://nextgenredteam.com/blog/conquering-silicon-edge-npu.html) (2026-06-22): How we bypassed broken vendor API servers, solved logit collapse with a physical SRAM context-window hack, and built an on-the-fly model hot-swapping daemon.
+- [Taming the Edge: Bypassing Axera AX8850 NPU Compiler Constraints](https://nextgenredteam.com/blog/taming-ax8850-edge-npu.html) (2026-06-21): A technical deep-dive into reverse-engineering the Pulsar2 compiler, patching PyArmor memory classes in-flight, and executing local LLMs on the Radxa AX-M1 NPU.
+- [Benchmarking NextGenRedPVE: Running Local Offensive AI Agents on Proxmox](https://nextgenredteam.com/blog/benchmarking-nextgenredpve.html) (2026-06-19): How we tested, why we tested, and what we learned benchmarking local abliterated LLMs for red team operations on our NextGenRedPVE cluster.
+- [Reasoning Models vs. Frontier Models in Offensive Security Benchmarking](https://nextgenredteam.com/blog/reasoning-models-vs-frontier-models-in-offensive-security-benchmarking.html) (2026-06-19): An in-depth evaluation of local reasoning models versus commercial frontier models, alignment and safety refusal bottlenecks, and agent frameworks like Swarm-AI in offensive security benchmarking.
+- [Testing the Gates: Why You Must Emulate Authentication Failures](https://nextgenredteam.com/blog/testing-authentication-telemetry.html) (2026-06-12): Why static rule validation fails, and how actively emulating login failures across Windows and Linux reveals hidden gaps in security logging.
+- [Demystifying Detection: Emulating Windows Event ID 4625 & SSH Login Failures](https://nextgenredteam.com/blog/emulating-windows-linux-logon-failures.html) (2026-06-11): A deep dive into building programmatic triggers for Windows SMB/NTLM and Linux SSH authentication failures to validate SIEM alerts and detection pipelines.
+- [Rescuing Abandoned IoT: How I Built JoeBro to Control My Smart Table](https://nextgenredteam.com/blog/rescuing-abandoned-iot-joebro-sobro.html) (2026-06-09): When manufacturers abandon their mobile apps, expensive smart hardware turns into a brick. Here is how I reverse-engineered the Ayla Networks API to build a zero-backend PWA.
+
