@@ -56,16 +56,28 @@ Read deep technical writeups by **Joe B. The Blind Hacker** covering local LLM o
 
 <div class="media-grid" style="margin-top: 20px; margin-bottom: 40px;">
   <div class="media-card">
+    <span class="media-tag">Edge AI CVE Research</span>
+    <h3>Hunting Edge AI CVEs: From Demo Code to DMA Memory Corruption</h3>
+    <p>Inside our hardware lab: auditing AXERA-TECH's AX-LLM C++ NPU runtime on a Radxa AI Core AX-M1 at 500 WPM to uncover seven memory corruption and command injection flaws.</p>
+    <a href="https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html" class="media-link" target="_blank" rel="noopener">Read CVE Walkthrough on NextGenRedTeam</a>
+  </div>
+  <div class="media-card">
+    <span class="media-tag">Accessible AI Architecture</span>
+    <h3>Why I Use AI to Build Accessible CLIs and Progressive Web Apps</h3>
+    <p>Why modern web GUIs fail blind security engineers, and how we use AI as a zero-visual-bias accessibility compiler to architect WCAG AAA PWAs and POSIX CLIs.</p>
+    <a href="https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html" class="media-link" target="_blank" rel="noopener">Read Blueprint on NextGenRedTeam</a>
+  </div>
+  <div class="media-card">
     <span class="media-tag">AI &amp; Hardware Benchmarks</span>
     <h3>Strata on the ZimaCube Pro: Why Q6 &amp; 6 Cores Beat Q8 &amp; Dense Models</h3>
     <p>A 9-model offensive security benchmark shootout testing Mixture-of-Experts (MoE) vs. dense LLM architectures and CPU thread scaling for autonomous red team orchestration.</p>
     <a href="https://nextgenredteam.com/blog/strata-benchmarks-zimacube-pro.html" class="media-link" target="_blank" rel="noopener">Read Benchmark on NextGenRedTeam</a>
   </div>
   <div class="media-card">
-    <span class="media-tag">Offensive AI Benchmarking</span>
-    <h3>Reasoning Models vs. Frontier Models in Offensive Security</h3>
-    <p>Evaluating local reasoning models against cloud frontier models across multi-step exploit chains, reconnaissance parsing, and vulnerability validation.</p>
-    <a href="https://nextgenredteam.com/blog/reasoning-models-vs-frontier-models-in-offensive-security-benchmarking.html" class="media-link" target="_blank" rel="noopener">Read Research on NextGenRedTeam</a>
+    <span class="media-tag">500-WPM CLI Methodology</span>
+    <h3>Hacking by Ear at 500 WPM: Screen Readers vs. Visual IDEs</h3>
+    <p>How combining full-time screen magnification with 550-WPM speech synthesizers and AST CLI filters turns non-visual code auditing into an asymmetric offensive advantage.</p>
+    <a href="https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html" class="media-link" target="_blank" rel="noopener">Read 500-WPM Playbook on NextGenRedTeam</a>
   </div>
   <div class="media-card">
     <span class="media-tag">NPU Silicon Engineering</span>
@@ -74,21 +86,9 @@ Read deep technical writeups by **Joe B. The Blind Hacker** covering local LLM o
     <a href="https://nextgenredteam.com/blog/ultimate-guide-zero-copy-ax8850.html" class="media-link" target="_blank" rel="noopener">Read NPU Guide on NextGenRedTeam</a>
   </div>
   <div class="media-card">
-    <span class="media-tag">IoT Hardware Rescue</span>
-    <h3>Rescuing Abandoned IoT: The JoeBro Sobro Smart Table Controller</h3>
-    <p>Reverse-engineering the Ayla Networks cloud handshake and Wi-Fi provisioning flow to rescue bricked Sobro Smart Coffee Tables with a zero-backend PWA.</p>
-    <a href="https://nextgenredteam.com/blog/rescuing-abandoned-iot-joebro-sobro.html" class="media-link" target="_blank" rel="noopener">Read Writeup on NextGenRedTeam</a>
-  </div>
-  <div class="media-card">
-    <span class="media-tag">Detection Engineering</span>
-    <h3>Emulating Windows (Event ID 4625) &amp; Linux SSH Logon Telemetry</h3>
-    <p>Building cross-platform adversary emulation modules in Go, Python, Bash, and PowerShell to validate SIEM detection rules against brute-force and password-spray TTPs.</p>
-    <a href="https://nextgenredteam.com/blog/emulating-windows-linux-logon-failures.html" class="media-link" target="_blank" rel="noopener">Read Playbook on NextGenRedTeam</a>
-  </div>
-  <div class="media-card">
     <span class="media-tag">Full Research Archive</span>
     <h3>Explore All NextGenRedTeam Threat Lab Articles</h3>
-    <p>Browse the complete index of 18+ technical posts on Proxmox AI labs, SearXNG/LiteLLM gateways, MoE tuning, and collaborative defense.</p>
+    <p>Browse the complete index of 20+ technical posts on Proxmox AI labs, SearXNG/LiteLLM gateways, IoT hardware rescues, MoE tuning, and collaborative defense.</p>
     <a href="https://nextgenredteam.com/blog/index.html" class="media-link" target="_blank" rel="noopener">Open NextGenRedTeam Blog &rarr;</a>
   </div>
 </div>

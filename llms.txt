@@ -20,6 +20,9 @@
 - **Dead Pixel Sec Discord**: https://discord.gg/deadpixelsec
 - **Cobalt Author Page**: https://www.cobalt.io/blog/author/joe-brinkley
 - **Latest Cobalt CVE Advisory (AX-LLM NPU 0-Days)**: https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter
+- **NGRT Hardware Lab CVE Walkthrough**: https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html
+- **Accessible CLI & PWA AI Blueprint**: https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html
+- **Hacking by Ear at 500 WPM**: https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html
 - **GitHub (Personal)**: https://github.com/TheBlindHacker
 - **GitHub (NextGenRedTeam)**: https://github.com/nextgenredteam
 - **ISC2 Speaker Profile**: https://events.isc2.org/b/sp/joe-brinkley-6146

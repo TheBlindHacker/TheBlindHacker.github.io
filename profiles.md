@@ -140,7 +140,10 @@ Find me on these platforms and labs:
     <span class="media-tag">Cobalt Research // CVE Advisory</span>
     <h3>Dissecting the AX-LLM CVEs: Why Edge AI Memory and Execution Boundaries Matter</h3>
     <p>“When vendors port cloud LLM runtimes directly to bare-metal NPU silicon without memory isolation, unauthenticated HTTP inputs map straight to Contiguous Media Memory (CMM) DMA buffers and root shell execution.”</p>
-    <a href="https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter" class="media-link" target="_blank" rel="noopener">Read CVE Analysis on Cobalt</a>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:auto;">
+      <a href="https://www.cobalt.io/blog/dissecting-the-ax-llm-cves-why-edge-ai-memory-and-execution-boundaries-matter" class="media-link" target="_blank" rel="noopener">Read CVE Analysis on Cobalt</a>
+      <a href="https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html" class="media-link" target="_blank" rel="noopener">Read Hardware Lab Deep Dive (NGRT)</a>
+    </div>
   </div>
 
   <div class="media-card">
