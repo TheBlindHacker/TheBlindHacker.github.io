@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="keywords" content="{{ page.keywords | default: 'The Blind Hacker, Blind Hacker, Blind Hakcer, TheBlindHacker, Blind Ethical Hacker, Hacking While Blind, Joe Brinkley, Joseph Brinkley, Joe B. The Blind Hacker, Director of Offensive Security Research, Director of Pentesting, Head of Pentesting, Cobalt, NextGenRedTeam, NGRT, Dead Pixel Sec, DeadPixelSec, AI Pentesting, Red Team, Purple Team, Accessibility in Cybersecurity' }}">
   <meta name="author" content="Joe Brinkley (The Blind Hacker)">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -30,6 +30,7 @@
           "Blind Hakcer",
           "TheBlindHacker",
           "Joseph Brinkley",
+          "Joe B",
           "Joe B. The Blind Hacker",
           "Blind Ethical Hacker"
         ],
@@ -56,7 +57,7 @@
         "sameAs": [
           "https://www.linkedin.com/in/brinkleyjoseph/",
           "https://x.com/TheBlindHacker",
-          "https://x.com/NextGenRedTeam",
+          "https://www.youtube.com/@BlindHacker",
           "https://nextgenredteam.com",
           "https://nextgenredteam.com/blog/index.html",
           "https://deadpixelsec.com",
@@ -64,6 +65,7 @@
           "https://github.com/TheBlindHacker",
           "https://github.com/nextgenredteam",
           "https://www.cobalt.io/blog/author/joe-brinkley",
+          "https://www.justhacking.com/author/joe_brinkley/",
           "https://events.isc2.org/b/sp/joe-brinkley-6146",
           "https://infosec.exchange/@TheBlindHacker",
           "https://www.twitch.tv/theblindhacker"

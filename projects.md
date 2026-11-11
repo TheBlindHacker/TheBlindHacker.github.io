@@ -1,5 +1,7 @@
 ---
-title: "Projects & Threat Lab | The Blind Hacker (Joe Brinkley)"
+title: "Projects"
+nav_title: "Projects"
+seo_title: "Projects & Threat Lab | The Blind Hacker (Joe Brinkley)"
 description: "Explore open-source offensive security tools, Threat Lab research blog posts at NextGenRedTeam.com, the JoeBro Sobro hardware rescue PWA, and the Dead Pixel Sec community by Joe Brinkley (The Blind Hacker)."
 keywords: "The Blind Hacker Projects, Blind Hacker, Blind Hakcer, Joe Brinkley, NextGenRedTeam, NGRT Blog, JoeBro Controller, Sobro Smart Table Rescue, Dead Pixel Sec, EventID4625, Threat Emulation"
 layout: home

@@ -1,5 +1,7 @@
 ---
-title: "The Blind Hacker (Joe Brinkley) | Offensive Security Research, Red Team & AI Lab"
+title: "Bio"
+nav_title: "Bio"
+seo_title: "The Blind Hacker (Joe Brinkley) | Offensive Security Research, Red Team & AI Lab"
 description: "Official home of Joe Brinkley (The Blind Hacker / Blind Hacker), Director of Offensive Security Research & Community at Cobalt, Founder of NextGenRedTeam (NGRT), and creator of the Hacking While Blind & Dead Pixel Sec communities."
 keywords: "The Blind Hacker, Blind Hacker, Blind Hakcer, TheBlindHacker, Blind Ethical Hacker, Hacking While Blind, Joe Brinkley, Joseph Brinkley, Joe B. The Blind Hacker, Cobalt, NextGenRedTeam, NGRT, Dead Pixel Sec, DeadPixelSec, Offensive Security, Penetration Testing, Red Team, Purple Team"
 layout: home
@@ -27,9 +29,8 @@ Despite being completely blind, he constantly pushes technical boundaries, rever
   <div class="media-card">
     <h3 style="display:flex; align-items:center; gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> X (Twitter)</h3>
     <p>Offensive Security &amp; Research Updates</p>
-    <div style="display:flex; flex-direction:column; gap:6px; margin-top:auto;">
+    <div class="media-actions">
       <a href="https://x.com/TheBlindHacker" class="media-link" target="_blank" rel="noopener">@TheBlindHacker</a>
-      <a href="https://x.com/NextGenRedTeam" class="media-link" target="_blank" rel="noopener">@NextGenRedTeam</a>
     </div>
   </div>
   <div class="media-card">

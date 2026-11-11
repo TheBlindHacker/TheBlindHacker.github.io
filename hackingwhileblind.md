@@ -1,5 +1,7 @@
 ---
-title: "Hacking While Blind | Screen Reader CLI Guide by The Blind Hacker (Joe Brinkley)"
+title: "Hacking While Blind"
+nav_title: "Hacking While Blind"
+seo_title: "Hacking While Blind | Screen Reader CLI Guide by The Blind Hacker (Joe Brinkley)"
 description: "Complete guide to Hacking While Blind by Joe Brinkley (The Blind Hacker). Learn how blind and visually impaired ethical hackers use Linux CLI, Nmap, Metasploit, grep, and screen readers (NVDA, JAWS) for offensive security."
 keywords: "Hacking While Blind, Blind Hacker, Blind Hakcer, The Blind Hacker, Blind Ethical Hacker, Screen Reader Hacking, Accessible Cybersecurity, NVDA, JAWS, Kali Linux Accessibility, Joe Brinkley, NextGenRedTeam, Dead Pixel Sec"
 layout: home
@@ -184,7 +186,7 @@ It is better to say "I don't know" than to stay stuck. Passion for hacking comes
 *   **Engage**: Join communities like [DeadPixelSec.com](https://deadpixelsec.com) and our Discord server at [discord.gg/deadpixelsec](https://discord.gg/deadpixelsec) where we discuss accessibility in InfoSec.
 *   **Read the 500-WPM & Accessible AI Blueprints**: Dive into [Hacking by Ear at 500 WPM](https://nextgenredteam.com/blog/hacking-by-ear-at-500-wpm-screen-readers.html), [Why I Use AI to Build Accessible CLIs and Progressive Web Apps](https://nextgenredteam.com/blog/why-i-use-ai-to-build-accessible-clis-and-pwas.html), and [Hunting Edge AI CVEs at 500 WPM](https://nextgenredteam.com/blog/hunting-edge-ai-cves-from-demo-code-to-dma-memory-corruption.html).
 *   **Read Our Threat Lab Research**: Dive into our technical offensive security and hardware engineering posts on the [NextGenRedTeam Threat Lab Blog](https://nextgenredteam.com/blog/index.html) and [NextGenRedTeam.com](https://nextgenredteam.com).
-*   **Connect with The Blind Hacker**: Follow Joe Brinkley on [LinkedIn (`in/brinkleyjoseph`)](https://www.linkedin.com/in/brinkleyjoseph/), [X (`@TheBlindHacker`)](https://x.com/TheBlindHacker), and [X (`@NextGenRedTeam`)](https://x.com/NextGenRedTeam).
+*   **Connect with The Blind Hacker**: Follow Joe Brinkley on [LinkedIn (`in/brinkleyjoseph`)](https://www.linkedin.com/in/brinkleyjoseph/) and [X (`@TheBlindHacker`)](https://x.com/TheBlindHacker).
 *   **Learn**: Familiarize yourself with basic Linux commands (`cd`, `ls`, `cat`, `grep`). The terminal is your home.
 *   **Share**: If you find a new way to make a tool talk, share it!
 

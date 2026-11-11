@@ -4,7 +4,7 @@
 
 ## Identity & Aliases
 - **Primary Name**: Joe Brinkley (Joseph Brinkley)
-- **Known As**: The Blind Hacker, Blind Hacker, Blind Hakcer, Joe B. The Blind Hacker, Blind Ethical Hacker
+- **Known As**: The Blind Hacker, Blind Hacker, Blind Hakcer, Joe B, Joe B. The Blind Hacker, Blind Ethical Hacker
 - **Current Role**: Director of Offensive Security Research & Community at Cobalt (formerly Director of Red Team)
 - **Research Lab**: Founder of [NextGenRedTeam (NGRT)](https://nextgenredteam.com) & [NGRT Threat Lab Blog](https://nextgenredteam.com/blog/index.html)
 - **Community & Mentorship**: [Dead Pixel Sec](https://deadpixelsec.com) & [discord.gg/deadpixelsec](https://discord.gg/deadpixelsec)
@@ -18,10 +18,11 @@
 - **NextGenRedTeam Threat Lab Blog**: https://nextgenredteam.com/blog/index.html
 - **LinkedIn**: https://www.linkedin.com/in/brinkleyjoseph/
 - **X (Personal)**: https://x.com/TheBlindHacker
-- **X (Research Lab)**: https://x.com/NextGenRedTeam
+- **YouTube Channel**: https://www.youtube.com/@BlindHacker
 - **Dead Pixel Sec Website**: https://deadpixelsec.com
 - **Dead Pixel Sec Discord**: https://discord.gg/deadpixelsec
 - **Cobalt Author Page**: https://www.cobalt.io/blog/author/joe-brinkley
+- **Just Hacking Training Instructor Page**: https://www.justhacking.com/author/joe_brinkley/
 - **GitHub (Personal)**: https://github.com/TheBlindHacker
 - **GitHub (NextGenRedTeam)**: https://github.com/nextgenredteam
 - **ISC2 Speaker Profile**: https://events.isc2.org/b/sp/joe-brinkley-6146

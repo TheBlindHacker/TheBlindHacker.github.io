@@ -1,15 +1,14 @@
 /**
- * Style variables
+ * Style variables — Low-Glare Terminal Hacker Palette (WCAG AAA Compliant)
  */
-$base-color: #BDBDBD !default;
-$primary-color: #00FFFF !default; // Neon Blue for high contrast (or #39FF14 Green)
-$text-color: #E0E0E0 !default; // Off-white for reduced glare
-$placeholder-color: #757575 !default;
-$link-color: #39FF14 !default; // Neon Green for links
-$border: solid 1px #333 !default; // Clearer border
-$selection-background: #00FFFF !default;
-$selection-text: #000 !default;
-$background-color: #121212 !default; // Dark background
-
+$base-color: #94a3b8 !default;
+$primary-color: #38bdf8 !default; // Crisp Terminal Sky Cyan (no harsh #00FFFF halation)
+$text-color: #e6edf3 !default; // Warm off-white for zero glare & high contrast
+$placeholder-color: #64748b !default;
+$link-color: #7dd3fc !default; // Cohesive readable sky-cyan link (no harsh green/blue clash)
+$border: solid 1px #263244 !default; // Clean slate terminal border
+$selection-background: #38bdf8 !default;
+$selection-text: #0b0f17 !default;
+$background-color: #0b0f17 !default; // Deep obsidian terminal background
 
 @import "base";
